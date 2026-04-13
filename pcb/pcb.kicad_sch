@@ -5921,7 +5921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25dcd4b5-2231-4d35-a2c7-4a937629b82a")
-		(property "Reference" "U3"
+		(property "Reference" "RP2040"
 			(at 58.0233 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "U3")
+					(reference "RP2040")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d79085-02cc-4460-a290-6d46303a9a91")
-		(property "Reference" "SW4"
+		(property "Reference" "SW_West"
 			(at 120.65 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,7 +6609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
 			(at 120.65 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6651,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW4")
+					(reference "SW_West")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd56a7b-2db8-40f1-a202-a78f5885c998")
-		(property "Reference" "SW2"
+		(property "Reference" "SW_East"
 			(at 120.65 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
 			(at 120.65 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8134,7 +8134,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW2")
+					(reference "SW_East")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c965a237-cf53-4628-bcbf-fa1f5345f018")
-		(property "Reference" "SW3"
+		(property "Reference" "SW_North"
 			(at 120.65 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
 			(at 120.65 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9004,7 +9004,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW3")
+					(reference "SW_North")
 					(unit 1)
 				)
 			)
@@ -9100,7 +9100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca753956-810a-4e31-a40b-53d122536aa2")
-		(property "Reference" "SW5"
+		(property "Reference" "SW_South"
 			(at 120.65 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
 			(at 120.65 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9162,7 +9162,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW5")
+					(reference "SW_South")
 					(unit 1)
 				)
 			)
