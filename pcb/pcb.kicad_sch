@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "e7f534c9-288b-42e9-bbd1-9a18eff38983")
 	(paper "A4")
+	(title_block
+		(title "Stepminia")
+		(date "2026-04-13")
+		(rev "v1")
+		(company "Andrew Cromar")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -4037,6 +4043,126 @@
 		(color 0 0 0 0)
 		(uuid "f62c5ffc-57b3-44ae-9ab3-71f89880e381")
 	)
+	(no_connect
+		(at 81.28 128.27)
+		(uuid "0a4fe6bf-85e8-431a-8e32-50b0a8d375a2")
+	)
+	(no_connect
+		(at 81.28 151.13)
+		(uuid "0ba1876c-1a00-4d5f-a6e3-d138ee29fbf7")
+	)
+	(no_connect
+		(at 81.28 138.43)
+		(uuid "146c09fc-c781-49e5-8596-311c28bfa614")
+	)
+	(no_connect
+		(at 46.99 58.42)
+		(uuid "20907c2e-43fa-4254-95ae-2ee7b47ac669")
+	)
+	(no_connect
+		(at 81.28 153.67)
+		(uuid "295098c9-beab-4714-8bf3-d9651c3de338")
+	)
+	(no_connect
+		(at 81.28 115.57)
+		(uuid "2c298580-69ca-49a9-b591-ddda080b935c")
+	)
+	(no_connect
+		(at 81.28 120.65)
+		(uuid "329534d3-185c-45f6-98ac-ae90b7175cc6")
+	)
+	(no_connect
+		(at 81.28 125.73)
+		(uuid "3db48982-8935-4f40-939b-149cf856c639")
+	)
+	(no_connect
+		(at 81.28 176.53)
+		(uuid "406119e0-7b83-4bbf-b2a7-9db7f808faf0")
+	)
+	(no_connect
+		(at 30.48 115.57)
+		(uuid "40f96514-5e78-4caa-baa7-86007df2ef1a")
+	)
+	(no_connect
+		(at 81.28 161.29)
+		(uuid "4813bed5-688f-4566-8826-c9e1b4c56f4d")
+	)
+	(no_connect
+		(at 30.48 107.95)
+		(uuid "4ecc27d7-bdf7-4520-abc5-589d0600b08e")
+	)
+	(no_connect
+		(at 81.28 146.05)
+		(uuid "534a625b-d7e5-4587-8317-358d814ed89c")
+	)
+	(no_connect
+		(at 81.28 118.11)
+		(uuid "67c91a1c-2014-4fe2-8eb1-694d19e46f10")
+	)
+	(no_connect
+		(at 81.28 156.21)
+		(uuid "710f3794-645d-4d26-902b-b7feacc6760a")
+	)
+	(no_connect
+		(at 81.28 143.51)
+		(uuid "758bf214-82e7-41de-9fb3-062431e7bb8e")
+	)
+	(no_connect
+		(at 81.28 148.59)
+		(uuid "7632ba83-0353-4792-bc54-22489e41cbd6")
+	)
+	(no_connect
+		(at 81.28 130.81)
+		(uuid "7de6fa1d-58a6-47f5-a57d-df4f58e375a9")
+	)
+	(no_connect
+		(at 81.28 158.75)
+		(uuid "822a7ece-f331-4b9f-9176-543a1a43367d")
+	)
+	(no_connect
+		(at 81.28 135.89)
+		(uuid "984ce356-cdab-4c3b-a883-b7d3834e9ea2")
+	)
+	(no_connect
+		(at 30.48 173.99)
+		(uuid "9cde5cf2-cdf2-416a-b1ce-7bb6f3b446ac")
+	)
+	(no_connect
+		(at 81.28 123.19)
+		(uuid "a2ba5a22-c931-4df9-b486-5c27ab696cc7")
+	)
+	(no_connect
+		(at 30.48 171.45)
+		(uuid "a95c5382-a5a8-4271-8f4b-376a776eb101")
+	)
+	(no_connect
+		(at 46.99 55.88)
+		(uuid "ad4a162e-0dea-4f73-98e8-4803fbb44d97")
+	)
+	(no_connect
+		(at 81.28 140.97)
+		(uuid "dea5428f-4b03-411d-b7e2-352f181cf982")
+	)
+	(no_connect
+		(at 81.28 163.83)
+		(uuid "e43561a7-01eb-4cb2-8125-83b554cbd939")
+	)
+	(no_connect
+		(at 81.28 173.99)
+		(uuid "e4c92554-2a90-4107-9080-7afa1b607529")
+	)
+	(no_connect
+		(at 81.28 171.45)
+		(uuid "f28d80d6-736f-4029-bfae-3d759cc3d412")
+	)
+	(no_connect
+		(at 81.28 168.91)
+		(uuid "fa205ec3-d66f-49d7-b81a-4f32f2c9155c")
+	)
+	(no_connect
+		(at 81.28 133.35)
+		(uuid "faeb1eb5-b736-44e3-a91f-00022ede96cd")
+	)
 	(wire
 		(pts
 			(xy 127 62.23) (xy 128.27 62.23)
@@ -4736,6 +4862,16 @@
 			(type default)
 		)
 		(uuid "f59235e7-9c50-44f0-a745-4957693ea85a")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 238.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa785f6c-bf0a-40da-82e3-6023975980b3")
 	)
 	(global_label "GPIO_01"
 		(shape bidirectional)
@@ -6584,7 +6720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe9b433-3bb8-4ec5-8b34-5558059fc67a")
-		(property "Reference" "SW_Menu"
+		(property "Reference" "SW_Menu1"
 			(at 120.65 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,7 +6782,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_Menu")
+					(reference "SW_Menu1")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8e9fca-eab7-4839-ad22-0efc85e98665")
-		(property "Reference" "SW_Start"
+		(property "Reference" "SW_Start1"
 			(at 120.65 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +7021,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_Start")
+					(reference "SW_Start1")
 					(unit 1)
 				)
 			)
@@ -6923,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
+		(property "Footprint" "andrews_lib:DDR_BUTTON_2"
 			(at 120.65 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8406,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
+		(property "Footprint" "andrews_lib:DDR_BUTTON_2_M"
 			(at 120.65 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9354,7 +9490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
+		(property "Footprint" "andrews_lib:DDR_BUTTON_2"
 			(at 120.65 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9512,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "andrews_lib:DDR_PAD_CONTACT"
+		(property "Footprint" "andrews_lib:DDR_BUTTON_2_M"
 			(at 120.65 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9790,6 +9926,84 @@
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55417c5-5a56-41fb-b3b2-74406563a44e")
+		(property "Reference" "#PWR022"
+			(at 55.88 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b65c0062-8295-4041-bfda-50f766dc7c02")
+		)
+		(instances
+			(project "pcb"
+				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10254,6 +10468,84 @@
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea0096fe-5a55-46db-9967-cbe9eb004150")
+		(property "Reference" "#PWR023"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e2f3696-a80e-4ecc-a52b-cf507b194cca")
+		)
+		(instances
+			(project "pcb"
+				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
