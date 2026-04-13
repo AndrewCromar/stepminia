@@ -6589,7 +6589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d79085-02cc-4460-a290-6d46303a9a91")
-		(property "Reference" "SW_West"
+		(property "Reference" "SW_West1"
 			(at 120.65 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +6651,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_West")
+					(reference "SW_West1")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd56a7b-2db8-40f1-a202-a78f5885c998")
-		(property "Reference" "SW_East"
+		(property "Reference" "SW_East1"
 			(at 120.65 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8134,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_East")
+					(reference "SW_East1")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c965a237-cf53-4628-bcbf-fa1f5345f018")
-		(property "Reference" "SW_North"
+		(property "Reference" "SW_North1"
 			(at 120.65 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,7 +9004,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_North")
+					(reference "SW_North1")
 					(unit 1)
 				)
 			)
@@ -9100,7 +9100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca753956-810a-4e31-a40b-53d122536aa2")
-		(property "Reference" "SW_South"
+		(property "Reference" "SW_South1"
 			(at 120.65 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +9162,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "SW_South")
+					(reference "SW_South1")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0147327-4669-4499-85ba-97792865608e")
-		(property "Reference" "U2"
+		(property "Reference" "Flash_Storage"
 			(at 250.19 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +9577,7 @@
 		(instances
 			(project "pcb"
 				(path "/e7f534c9-288b-42e9-bbd1-9a18eff38983"
-					(reference "U2")
+					(reference "Flash_Storage")
 					(unit 1)
 				)
 			)

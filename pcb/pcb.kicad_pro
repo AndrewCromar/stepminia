@@ -632,7 +632,7 @@
         "uuid": "e7f534c9-288b-42e9-bbd1-9a18eff38983"
       }
     ],
-    "used_designators": "SW_West1,SW_South1,SW_North1,SW_East1",
+    "used_designators": "SW_West1,SW_South1,Flash_Storage1,SW_North1,SW_East1",
     "variants": []
   },
   "sheets": [
