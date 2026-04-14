@@ -646,7 +646,7 @@
         "uuid": "e7f534c9-288b-42e9-bbd1-9a18eff38983"
       }
     ],
-    "used_designators": "SW_Menu1,SW_Start1,#PWR22-23",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
