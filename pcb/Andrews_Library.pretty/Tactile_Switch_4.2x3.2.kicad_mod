@@ -7,7 +7,8 @@
 		(at -15 -12.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "712455b7-ade8-46a7-af8c-69b67bb50c95")
+		(hide yes)
+		(uuid "c11a9171-e1cf-4457-a43c-da6d29a54ca0")
 		(effects
 			(font
 				(size 1 1)
@@ -16,14 +17,14 @@
 		)
 	)
 	(property "Value" "Tactile_Switch_4.2x3.2"
-		(at -15 -11 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9ef8a589-6335-43f4-a152-b660ce534dd7")
+		(uuid "7034d20b-eb3c-4715-90ac-2ca3cea19102")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.0625)
 			)
 		)
 	)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c0bcaa5f-d0cc-4e9c-ae5d-e05fab75d53c")
+		(uuid "05ccae52-7817-464b-89f6-abcb55b29e69")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a2153d34-effa-4198-b74d-56d846beabf8")
+		(uuid "e1792057-4dc2-43a8-8dcf-169a27f189e7")
 		(effects
 			(font
 				(size 1 1)
@@ -96,14 +97,14 @@
 		(uuid "e7574213-aae9-44a6-9e8c-7ff6b9d79687")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -15 -9.5 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cd01ea7d-f9f0-4583-be25-a88a001cca63")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -132,6 +133,36 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "c214cf37-3903-45c0-9d3a-01c0a1c53c27")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "85eba870-48db-47a8-b2da-d862aa3593d1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3 -2) (xy 3 -2) (xy 3 2) (xy -3 2)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
