@@ -1252,6 +1252,199 @@
 			)
 		)
 	)
+	(footprint "Andrews_Library:Tactile_Switch_4.2x3.2"
+		(layer "F.Cu")
+		(uuid "1b743e52-f45d-4e30-9d82-fe43893756a3")
+		(at 58.575 4.75 -90)
+		(property "Reference" "SW_Menu1"
+			(at -15 -12.5 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ce20ee67-227d-4629-8990-512dda387588")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -2.5 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6c3eaa52-b686-4467-b850-8f9cb6af372a")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e0e8e3e-05fc-45ef-8295-77fb112da287")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93ea9919-661f-43f2-9325-d03cd00c1050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fe9b433-3bb8-4ec5-8b34-5558059fc67a")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.1 1.6)
+			(end 2.1 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92d7a62f-030b-4c78-b459-320945f91295")
+		)
+		(fp_line
+			(start -2.1 -0.5)
+			(end -2.1 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6ab94cb-3a86-4da4-b980-9bed72912adb")
+		)
+		(fp_line
+			(start 2.1 -0.5)
+			(end 2.1 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b26c1212-49b2-431a-a8f8-1bfe2db6fdc1")
+		)
+		(fp_line
+			(start -2.1 -1.6)
+			(end 2.1 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d8807fe-e111-4803-bded-f3aa3ab788cd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4831c886-001e-492f-95ad-7a2ad5924b59")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.25 -1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "4f51c79c-449c-4fe1-b29d-245c12ba40ed")
+		)
+		(pad "2" smd roundrect
+			(at 2.25 -1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GPIO_02")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "37c10f15-ad26-4936-ac62-08dd0a02d4ce")
+		)
+		(pad "3" smd rect
+			(at -2.25 1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "5423b0c5-dd3d-4659-91fa-29bcaf82383d")
+		)
+		(pad "4" smd roundrect
+			(at 2.25 1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "44b39265-ba8b-454f-bf34-a78b32cb4b98")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "046296ed-5d55-41d3-b4cd-0d78cf2a6c0e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 60.575 1.75) (xy 60.575 7.75) (xy 56.575 7.75) (xy 56.575 1.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "263fb96b-1417-4ab0-99f7-7f21824eaa32")
@@ -1732,192 +1925,6 @@
 			)
 		)
 	)
-	(footprint "Andrews_Library:Tactile_Switch_4.2x3.2"
-		(layer "F.Cu")
-		(uuid "2c821da5-28d8-42d5-8bbd-1eec5d3d6b51")
-		(at 67.75 61.175 180)
-		(property "Reference" "SW1"
-			(at -15 -12.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b2c71c3b-f6ef-4a1d-8378-b89dc34254d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at -15 -11 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c5d36412-6137-48b1-9331-8b695fa5f881")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dff38e0-a3f6-46de-8b70-238254faf734")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e87ff565-28d5-41c1-a2d2-bf8348f4d85c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/bbe1cbb0-4216-4ef8-8a10-2a702376b090")
-		(sheetname "/")
-		(sheetfile "pcb.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d974432c-cfdd-4cdc-a710-05906c57720a")
-		)
-		(fp_line
-			(start -2.1 1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12d4f13e-5b2e-46f9-9899-c37ee498b4f8")
-		)
-		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2722e1a6-8252-412c-a32e-f6b9b8fe74e6")
-		)
-		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bf902916-6b58-4598-af82-747577fcd07b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -15 -9.5 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "03b7eeb5-e57b-442b-9af2-75bdde17ce4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.25 -1.075 180)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "6208b852-1e9a-4b01-aa04-8df4528ef5ea")
-		)
-		(pad "2" smd roundrect
-			(at 2.25 -1.075 180)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15)
-			(net "Net-(R6-Pad1)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "36c94862-2e0f-4a94-b26b-68b4c51f82ae")
-		)
-		(pad "3" smd rect
-			(at -2.25 1.075 180)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(uuid "fa248202-94ae-489d-a23e-0ee7466456ee")
-		)
-		(pad "4" smd roundrect
-			(at 2.25 1.075 180)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15)
-			(uuid "602dc09b-d085-48f5-82e8-22393d525e73")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "128b0879-d466-4ef1-801f-df35914221c0")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour allowed)
-				(footprints not_allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 70.75 63.175) (xy 64.75 63.175) (xy 64.75 59.175) (xy 70.75 59.175)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "567bcd12-8319-4afd-a01e-9f391d658e32")
@@ -2067,192 +2074,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Andrews_Library:Tactile_Switch_4.2x3.2"
-		(layer "F.Cu")
-		(uuid "5b2cda12-d67d-45ed-8f7e-e886489b1d1c")
-		(at 66.5 5 -90)
-		(property "Reference" "SW_Start1"
-			(at -15 -12.5 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "44e24f60-e72a-4fac-bc7b-c2f44b28b5a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at -15 -11 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "31bbd8f9-2eff-4ac3-a941-3336ecce15d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c8ca350-c31b-47e5-b946-536786e2c8d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d3a0a65-f1b4-413c-9dc8-f9488f954fd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/3c8e9fca-eab7-4839-ad22-0efc85e98665")
-		(sheetname "/")
-		(sheetfile "pcb.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2.1 1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cd0a9fd0-b437-4cad-a07c-05347262829b")
-		)
-		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d3d37819-5cac-4a67-9f05-8a399b34bc36")
-		)
-		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "90775743-f8c7-493b-8417-ae7dff083f12")
-		)
-		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "35944ab5-4f16-4f3a-aaf4-088a8fd2c8c7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -15 -9.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "0e65c48e-a8d9-4221-8c79-7c8cfdc7296b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.25 -1.075 270)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "aada6e87-d112-4ccb-9c12-9815ab68d4fd")
-		)
-		(pad "2" smd roundrect
-			(at 2.25 -1.075 270)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15)
-			(net "GPIO_01")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "81aa0710-01e9-4270-a289-6c0569e9606f")
-		)
-		(pad "3" smd rect
-			(at -2.25 1.075 270)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(uuid "c4476db9-bdb4-43d9-ac1e-0a920b5768e2")
-		)
-		(pad "4" smd roundrect
-			(at 2.25 1.075 270)
-			(size 1 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15)
-			(uuid "ce8a8d70-4cd4-4346-a428-9f0cdd226b87")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "3d8248da-41ed-4b18-930c-71213ad1fc8e")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour allowed)
-				(footprints not_allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 68.5 2) (xy 68.5 8) (xy 64.5 8) (xy 64.5 2)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5735,13 +5556,14 @@
 	)
 	(footprint "Andrews_Library:Tactile_Switch_4.2x3.2"
 		(layer "F.Cu")
-		(uuid "bd2021fe-ff2e-4f89-8b73-7f7cf57b9553")
-		(at 58.5 5 -90)
-		(property "Reference" "SW_Menu1"
+		(uuid "bdccec03-2455-43e7-8327-6d4a89a3ab44")
+		(at 66.5 4.75 -90)
+		(property "Reference" "SW_Start1"
 			(at -15 -12.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c80726ea-c0c4-498f-ba0e-c0800b486686")
+			(hide yes)
+			(uuid "3b8fef05-25e6-4fb5-abc8-5f4c601f87c4")
 			(effects
 				(font
 					(size 1 1)
@@ -5750,14 +5572,14 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -15 -11 270)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "636481c6-d75b-49cc-913f-52900b2f1530")
+			(uuid "96d75a76-58ea-41a2-8d6a-739542332021")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.0625)
 				)
 			)
 		)
@@ -5766,7 +5588,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63619531-a618-4c15-ba43-c712085827a1")
+			(uuid "828dccc4-9f9e-4ad7-be59-ff29edb307e5")
 			(effects
 				(font
 					(size 1 1)
@@ -5779,7 +5601,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eaba9432-286f-41a1-933a-f0d7938ab722")
+			(uuid "c8dad305-1079-46aa-b909-cb5aecad70e9")
 			(effects
 				(font
 					(size 1 1)
@@ -5787,9 +5609,15 @@
 				)
 			)
 		)
-		(path "/2fe9b433-3bb8-4ec5-8b34-5558059fc67a")
+		(path "/3c8e9fca-eab7-4839-ad22-0efc85e98665")
 		(sheetname "/")
 		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5800,7 +5628,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4598db00-6792-43a8-b4b5-6a04b0f736b3")
+			(uuid "4bc5d055-9fce-44e6-b369-1c153ea7b59b")
 		)
 		(fp_line
 			(start -2.1 -0.5)
@@ -5810,7 +5638,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e246c41e-74a1-4468-b855-40f23d633e62")
+			(uuid "7bbada1e-5ced-4c10-8071-5870965b1352")
 		)
 		(fp_line
 			(start 2.1 -0.5)
@@ -5820,7 +5648,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "acc79162-eb98-423c-8945-ab0df1cddf0f")
+			(uuid "e591b840-b677-47bf-abb3-da0240957fb6")
 		)
 		(fp_line
 			(start -2.1 -1.6)
@@ -5830,17 +5658,17 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d91ac346-e879-4864-bd66-9d915f402202")
+			(uuid "d30bd11a-259b-48a8-a45f-8afdcc0171c0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -15 -9.5 270)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a6674aef-d430-4945-9185-89af92d206b4")
+			(uuid "d9bb1b0a-0b61-4e78-a927-3d51ac71e905")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5851,34 +5679,34 @@
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(uuid "bacca5eb-5689-4440-a83b-8421a8237f33")
+			(uuid "fe76b1ee-6746-4173-9fa9-15cd3ecec135")
 		)
 		(pad "2" smd roundrect
 			(at 2.25 -1.075 270)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "GPIO_02")
+			(net "GPIO_01")
 			(pinfunction "2_2")
 			(pintype "passive")
-			(uuid "d065223a-f6e7-4d1d-a802-f5e4c423eff5")
+			(uuid "2e9175fa-9271-4e7c-956a-cd436cb78ed4")
 		)
 		(pad "3" smd rect
 			(at -2.25 1.075 270)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(uuid "aa5b2e39-1cf0-4498-9837-dabd0719875a")
+			(uuid "f1c862b6-9ae5-411a-b2e6-a8b2a18c3bb6")
 		)
 		(pad "4" smd roundrect
 			(at 2.25 1.075 270)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(uuid "3e4d98f5-893c-45f7-9056-af357f1c6964")
+			(uuid "de74ea93-7b11-49e9-8567-06b0c19ad309")
 		)
 		(zone
 			(layer "F.SilkS")
-			(uuid "488c1a81-b5cf-48c3-acdc-4e180a35a29e")
+			(uuid "c2676d26-a233-4a46-b6a9-2ee7845fd2ba")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -5902,7 +5730,7 @@
 			)
 			(polygon
 				(pts
-					(xy 60.5 2) (xy 60.5 8) (xy 56.5 8) (xy 56.5 2)
+					(xy 68.5 1.75) (xy 68.5 7.75) (xy 64.5 7.75) (xy 64.5 1.75)
 				)
 			)
 		)
@@ -7041,6 +6869,199 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Andrews_Library:Tactile_Switch_4.2x3.2"
+		(layer "F.Cu")
+		(uuid "ec12e300-c1ec-48a8-b85c-a6ef7df44c11")
+		(at 66.75 59.75 -90)
+		(property "Reference" "SW1"
+			(at -15 -12.5 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f39ddd8-fe93-44cc-a4d2-3a218f91e717")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -2.5 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c596a85b-38e2-4abd-ba9c-c77b51b2de14")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47773685-4b20-42a1-9ab8-cddaa5b39046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e82c164c-137e-4fe3-86ad-5368fbd8d7a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bbe1cbb0-4216-4ef8-8a10-2a702376b090")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.1 1.6)
+			(end 2.1 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bcae99c1-99e9-4b4d-831e-ac07a1da812b")
+		)
+		(fp_line
+			(start -2.1 -0.5)
+			(end -2.1 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d77685d-744e-430f-b367-d9b4f3203a05")
+		)
+		(fp_line
+			(start 2.1 -0.5)
+			(end 2.1 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e950b40-0e20-43e1-b289-5ea1083d8dbc")
+		)
+		(fp_line
+			(start -2.1 -1.6)
+			(end 2.1 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fbaa1915-cb55-480b-a352-edbcd17b46a2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "72c59d71-169c-43fb-b92c-3878ef37e241")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.25 -1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "d89aa388-8aea-4d67-a6a7-539324ebd83c")
+		)
+		(pad "2" smd roundrect
+			(at 2.25 -1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "Net-(R6-Pad1)")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "c7c1c966-5ea1-4ea7-9ba0-d5c247025f31")
+		)
+		(pad "3" smd rect
+			(at -2.25 1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "d6ede804-fea4-4820-9258-06a1b0151d27")
+		)
+		(pad "4" smd roundrect
+			(at 2.25 1.075 270)
+			(size 1 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "3b3b33c8-7942-4a3e-8375-2dff492c1aa1")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "e6007467-3f7b-406e-9bd3-7b349d7ab0e7")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 68.75 56.75) (xy 68.75 62.75) (xy 64.75 62.75) (xy 64.75 56.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9477,20 +9498,20 @@
 		(uuid "fe7e426d-b283-48d2-bd80-d199b72e5331")
 	)
 	(segment
-		(start 65.5 62.6)
-		(end 65.5 62.25)
+		(start 64 64.1)
+		(end 65.725 64.1)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(R6-Pad1)")
-		(uuid "220a34da-d129-4ce8-9cc8-58c79cbde976")
+		(uuid "482da065-80dc-40d6-a81e-d9603257f05c")
 	)
 	(segment
-		(start 64 64.1)
-		(end 65.5 62.6)
+		(start 65.725 64.1)
+		(end 67.825 62)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(R6-Pad1)")
-		(uuid "402d510a-90f4-4872-8af6-c7bd35ac6e28")
+		(uuid "675500ee-de1e-4a62-87e1-bd29f7680531")
 	)
 	(segment
 		(start 59.070343 8.320343)
