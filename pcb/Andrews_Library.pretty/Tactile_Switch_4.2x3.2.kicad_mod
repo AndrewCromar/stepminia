@@ -1,0 +1,148 @@
+(footprint "Tactile_Switch_4.2x3.2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -15 -12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "712455b7-ade8-46a7-af8c-69b67bb50c95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Tactile_Switch_4.2x3.2"
+		(at -15 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ef8a589-6335-43f4-a152-b660ce534dd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0bcaa5f-d0cc-4e9c-ae5d-e05fab75d53c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2153d34-effa-4198-b74d-56d846beabf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ae4af4-49b5-4904-b2c4-1865d5ddc94b")
+	)
+	(fp_line
+		(start -2.1 -0.5)
+		(end -2.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d408d362-801b-408d-b52c-ffe58ba179e2")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3f3d35d-ebae-4b73-b38e-1147bf667218")
+	)
+	(fp_line
+		(start 2.1 -0.5)
+		(end 2.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7574213-aae9-44a6-9e8c-7ff6b9d79687")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -15 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd01ea7d-f9f0-4583-be25-a88a001cca63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 -1.075)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6cfd56ae-2d3e-451c-a2d3-1181bc1c769d")
+	)
+	(pad "2" smd roundrect
+		(at 2.25 -1.075)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0ecab564-b6bf-40ad-960f-6b5980f32128")
+	)
+	(pad "3" smd rect
+		(at -2.25 1.075)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce1b1931-50fe-463d-85d9-aedebf56fb02")
+	)
+	(pad "4" smd roundrect
+		(at 2.25 1.075)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c214cf37-3903-45c0-9d3a-01c0a1c53c27")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Tactile_Switch_4.2x3.2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
