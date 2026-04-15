@@ -5909,7 +5909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 135.5852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 119.0752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 141.9352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +6660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 112.7252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6899,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7218,7 +7218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.0352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7458,6 +7458,17 @@
 				)
 			)
 		)
+		(property "LCSC_PART" "C98220"
+			(at 218.44 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4e88152-3c65-4a2d-b4d7-655ebb1e133f")
 		)
@@ -7506,7 +7517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.6852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7665,7 +7676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 106.3752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7746,7 +7757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 167.3352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7826,7 +7837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 111.76 84.7852 0)
 			(hide yes)
 			(show_name no)
@@ -8220,7 +8231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 148.2852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +8391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 160.9852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.5952 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8856,7 +8867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 154.6352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9172,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 128.27 63.1952 0)
 			(hide yes)
 			(show_name no)
@@ -10041,7 +10052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 247.65 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -10585,7 +10596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 59.3852 35.56 0)
 			(hide yes)
 			(show_name no)
