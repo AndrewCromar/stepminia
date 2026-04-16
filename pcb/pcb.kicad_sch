@@ -1002,7 +1002,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "10db122f-b56e-43d9-9e86-7fbc25bf5c59")
+		(uuid "082ce6e4-4244-445d-a915-ad11802aa5d1")
 	)
 	(wire
 		(pts
@@ -1284,7 +1284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1307,6 +1307,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1664,7 +1675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 83.5152 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1687,6 +1698,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 82.55 92.71 0)
 			(hide yes)
 			(show_name no)
