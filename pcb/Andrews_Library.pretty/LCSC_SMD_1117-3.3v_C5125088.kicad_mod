@@ -7,7 +7,7 @@
 		(at -23.2 -14.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4f493bf3-1a97-4f2f-a3a0-b243aadc53c2")
+		(uuid "0088970d-2f6b-4cd8-a5a4-0316d82ddd76")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at -23.2 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b32e8186-a194-4ca9-addc-3413481b3360")
+		(uuid "cbcc160d-7e9f-456b-9263-a9be6805bb96")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "28e46a60-565b-4435-8d21-74b7dbdc8ac1")
+		(uuid "c22501f0-286c-45eb-8898-4db818eb3382")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2409e783-07f6-43b9-b00b-7c5018ad838d")
+		(uuid "a15c581f-5e60-4fdd-a3f9-7ac676633090")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,28 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.5 -7.5)
+		(end 3.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "27819ec0-f752-4ef1-b542-60941e3d6023")
+	)
+	(fp_rect
+		(start -2.95 -5)
+		(end 2.95 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c9f1fd5d-1275-4560-9946-c7933dd861af")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -23.2 -11.2 0)
 		(unlocked yes)
@@ -75,6 +97,13 @@
 		(uuid "64527a61-99a1-4e1b-9b7c-ccf0df184122")
 	)
 	(pad "2" smd roundrect
+		(at 0 -6.45)
+		(size 3.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "22b757b3-b6ef-4a6a-90cb-5204699faec5")
+	)
+	(pad "2" smd roundrect
 		(at 0 0)
 		(size 0.9 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -87,6 +116,36 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "7efea7b2-5e37-4f95-a1bb-e7a52a6e8ff9")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "441084c8-5564-4c45-96eb-b18b5f9f510a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -7.5) (xy 3.5 -7.5) (xy 3.5 1) (xy -3.5 1)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
