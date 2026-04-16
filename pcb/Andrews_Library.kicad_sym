@@ -28,8 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -3.81 5.08 0)
+		(property "Footprint" "Andrews_Library:LCSC_SMD_1117-3.3v_C5125088"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
