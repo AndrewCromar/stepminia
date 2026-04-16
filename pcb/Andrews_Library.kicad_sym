@@ -2,6 +2,179 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "LCSC_SMD_1117-3.3v_C5125088"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0.508 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1117-3.3"
+			(at 0.508 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.81 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -3.81 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5125088"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LCSC_SMD_1117-3.3v_C5125088_1_1"
+			(rectangle
+				(start -6.35 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "Voltage\nRegulator"
+				(at 0.762 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "LCSC:C5125088"
+				(at 0.762 2.286 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND/ADJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LCSC_SMD_USBC_C2760486"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9,7 +182,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at -4.064 14.224 0)
+			(at 4.318 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +192,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-31"
-			(at -12.192 11.938 0)
+			(at 12.954 11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -104,7 +277,7 @@
 				)
 			)
 			(text "LCSC:C2760486"
-				(at -2.032 -0.254 0)
+				(at -2.032 0 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -112,8 +285,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -13.97 90)
-				(length 2.54)
+				(at -2.54 -16.51 90)
+				(length 5.08)
 				(name "1"
 					(effects
 						(font
@@ -130,8 +303,8 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -13.97 90)
-				(length 2.54)
+				(at 0 -16.51 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -148,8 +321,8 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 -3.81 0)
-				(length 2.54)
+				(at -13.97 -3.81 0)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -166,8 +339,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -3.81 180)
-				(length 2.54)
+				(at 13.97 -3.81 180)
+				(length 5.08)
 				(name "CC1"
 					(effects
 						(font
@@ -184,8 +357,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 6.35 180)
-				(length 2.54)
+				(at 13.97 6.35 180)
+				(length 5.08)
 				(name "DP1"
 					(effects
 						(font
@@ -202,8 +375,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 3.81 180)
-				(length 2.54)
+				(at 13.97 3.81 180)
+				(length 5.08)
 				(name "DN1"
 					(effects
 						(font
@@ -220,8 +393,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 12.7 270)
-				(length 2.54)
+				(at 0 15.24 270)
+				(length 5.08)
 				(name "SBU1"
 					(effects
 						(font
@@ -238,8 +411,8 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 -6.35 0)
-				(length 2.54)
+				(at -13.97 -6.35 0)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -256,8 +429,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -13.97 90)
-				(length 2.54)
+				(at 2.54 -16.51 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -274,8 +447,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -6.35 180)
-				(length 2.54)
+				(at 13.97 -6.35 180)
+				(length 5.08)
 				(name "CC2"
 					(effects
 						(font
@@ -292,8 +465,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 1.27 180)
-				(length 2.54)
+				(at 13.97 1.27 180)
+				(length 5.08)
 				(name "DP2"
 					(effects
 						(font
@@ -310,8 +483,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -1.27 180)
-				(length 2.54)
+				(at 13.97 -1.27 180)
+				(length 5.08)
 				(name "DN2"
 					(effects
 						(font
@@ -328,8 +501,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 12.7 270)
-				(length 2.54)
+				(at 2.54 15.24 270)
+				(length 5.08)
 				(name "SBU2"
 					(effects
 						(font
