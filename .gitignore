@@ -1,1 +1,4 @@
-pcb/.history/
+.history/
+pcb-backups/
+~*.lck
+*.bak
