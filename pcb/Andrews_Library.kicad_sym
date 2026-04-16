@@ -164,7 +164,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 4.318 13.97 0)
+			(at -0.508 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-31"
-			(at 12.954 11.684 0)
+			(at 8.128 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -206,7 +206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -229,8 +229,8 @@
 		)
 		(symbol "LCSC_SMD_USBC_C2760486_1_1"
 			(rectangle
-				(start -8.89 10.16)
-				(end 8.89 -11.43)
+				(start -11.43 11.43)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
@@ -240,7 +240,7 @@
 				)
 			)
 			(circle
-				(center -6.35 7.62)
+				(center -8.89 8.89)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -251,7 +251,7 @@
 				)
 			)
 			(text "USBC"
-				(at -2.032 1.524 0)
+				(at -1.27 1.778 0)
 				(effects
 					(font
 						(size 1.905 1.905)
@@ -259,7 +259,7 @@
 				)
 			)
 			(text "LCSC:C2760486"
-				(at -2.032 0 0)
+				(at -1.27 0.254 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -267,7 +267,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -16.51 90)
+				(at -3.81 -15.24 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -285,7 +285,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -16.51 90)
+				(at -1.27 -15.24 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -294,16 +294,16 @@
 						)
 					)
 				)
-				(number "A1"
+				(number "A1/B12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -13.97 -3.81 0)
+				(at -16.51 0 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -312,16 +312,16 @@
 						)
 					)
 				)
-				(number "A4"
+				(number "A4/B9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -339,7 +339,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 6.35 180)
+				(at 12.7 7.62 180)
 				(length 5.08)
 				(name "DP1"
 					(effects
@@ -357,7 +357,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 1.27 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "DN1"
 					(effects
@@ -375,7 +375,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 15.24 270)
+				(at -5.08 16.51 270)
 				(length 5.08)
 				(name "SBU1"
 					(effects
@@ -393,25 +393,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -6.35 0)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -16.51 90)
+				(at 1.27 -15.24 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -420,16 +402,34 @@
 						)
 					)
 				)
-				(number "A12"
+				(number "B1/A12"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 5.08)
+				(name "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+				(number "B4/A9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
 			)
 			(pin bidirectional line
-				(at 13.97 -6.35 180)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -447,7 +447,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 3.81 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "DP2"
 					(effects
@@ -465,7 +465,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -1.27 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "DN2"
 					(effects
@@ -483,7 +483,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 15.24 270)
+				(at -2.54 16.51 270)
 				(length 5.08)
 				(name "SBU2"
 					(effects
