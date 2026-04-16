@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at -5.08 11.938 0)
+			(at -4.064 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-31"
-			(at 0 0 0)
+			(at -12.192 11.938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Andrews_Library:LCSC_SMD_USBC_C2760486"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

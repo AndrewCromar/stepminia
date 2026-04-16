@@ -10,7 +10,532 @@
 		(rev "v2")
 		(company "Andrew Cromar")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Andrews_Library:LCSC_SMD_USBC_C2760486"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -4.064 14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TYPE-C-31-M-31"
+				(at -12.192 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Andrews_Library:LCSC_SMD_USBC_C2760486"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2760486.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2760486"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LCSC_SMD_USBC_C2760486_1_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 7.62)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "USBC"
+					(at -2.032 1.524 0)
+					(effects
+						(font
+							(size 1.905 1.905)
+						)
+					)
+				)
+				(text "LCSC:C2760486"
+					(at -2.032 -0.254 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 139.7 88.9)
+		(uuid "0e8661a6-dd62-407d-8308-d919b74a5e6d")
+	)
+	(no_connect
+		(at 128.27 80.01)
+		(uuid "4ed02435-7ad9-44aa-b928-3b04e38cd839")
+	)
+	(no_connect
+		(at 130.81 106.68)
+		(uuid "756755a1-5184-4dea-84d2-7c94fc360e13")
+	)
+	(no_connect
+		(at 128.27 106.68)
+		(uuid "7676a7d4-fcd8-42c9-815b-9f18a2eb297f")
+	)
+	(no_connect
+		(at 139.7 93.98)
+		(uuid "79bfe7e7-55b5-4f17-b5e3-065f48cdd154")
+	)
+	(no_connect
+		(at 139.7 96.52)
+		(uuid "7fad374c-1f95-480c-ba56-67e608224257")
+	)
+	(no_connect
+		(at 139.7 99.06)
+		(uuid "86237994-9d46-4ab4-9bf9-f51bed5102ce")
+	)
+	(no_connect
+		(at 139.7 91.44)
+		(uuid "b904b65e-90ca-4568-9cca-f228405dfdbc")
+	)
+	(no_connect
+		(at 125.73 106.68)
+		(uuid "be8e27df-93b5-4adc-b86a-59259f36ed52")
+	)
+	(no_connect
+		(at 139.7 86.36)
+		(uuid "e020a38d-f3fe-4af4-99ce-bdfbd320370e")
+	)
+	(no_connect
+		(at 116.84 99.06)
+		(uuid "e1ca4c8c-309f-4b8e-a100-379fea6d32bb")
+	)
+	(no_connect
+		(at 130.81 80.01)
+		(uuid "e27f3c51-4bc7-46ff-8340-60f13344be34")
+	)
+	(no_connect
+		(at 116.84 96.52)
+		(uuid "f8f86fb3-e09a-414e-a591-90acf84a9cbc")
+	)
+	(symbol
+		(lib_id "Andrews_Library:LCSC_SMD_USBC_C2760486")
+		(at 128.27 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae79bef-a3e8-4b52-aa77-2d060998768c")
+		(property "Reference" "J1"
+			(at 132.9533 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-31"
+			(at 132.9533 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Andrews_Library:LCSC_SMD_USBC_C2760486"
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2760486.pdf"
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2760486"
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A12"
+			(uuid "4d419b74-b4e3-48d9-9782-a13efd8f4511")
+		)
+		(pin "B8"
+			(uuid "36d33c14-a6eb-41fe-a907-f0e921f8a536")
+		)
+		(pin "A7"
+			(uuid "6bb28409-44b4-4083-a19f-65045fd2e479")
+		)
+		(pin "A8"
+			(uuid "6ef24cfa-663c-407a-a89b-3a59df3232a9")
+		)
+		(pin "A9"
+			(uuid "f7c09ce6-33ee-4f72-935f-8dcf0b378ca2")
+		)
+		(pin "B7"
+			(uuid "706244ef-d942-4fd3-8378-f0d31ededb15")
+		)
+		(pin "B5"
+			(uuid "f15df1d6-ed36-4b6d-9c4a-a3ece9e7a44e")
+		)
+		(pin "B6"
+			(uuid "db3dced3-b293-4798-a11d-6ad842ebf903")
+		)
+		(pin "A6"
+			(uuid "de3350f2-a66e-412d-8a0b-11291dce14d5")
+		)
+		(pin "A5"
+			(uuid "9e08318e-6556-499d-ae5d-87bece1fab8c")
+		)
+		(pin "A4"
+			(uuid "a9c34be8-55d4-4d5f-a4e7-a0f594dca95d")
+		)
+		(pin "A1"
+			(uuid "a5e0f8da-b50e-489d-bcd2-2c21b4906165")
+		)
+		(pin "1"
+			(uuid "7fce0ae5-d7d1-4bf4-a36a-51d0ba166d04")
+		)
+		(instances
+			(project "pcb"
+				(path "/37969d75-6775-4969-b3c5-2af34bbf809f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
