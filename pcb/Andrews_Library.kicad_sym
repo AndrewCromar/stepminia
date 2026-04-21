@@ -630,7 +630,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 11.176 0)
+			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -695,7 +695,7 @@
 		)
 		(symbol "LCSC_W25Q16JVSSIQ_C131025_1_1"
 			(rectangle
-				(start -12.7 9.525)
+				(start -12.7 10.16)
 				(end 12.7 -10.16)
 				(stroke
 					(width 0)
@@ -714,7 +714,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -15.24 -1.27 0)
 				(length 2.54)
 				(name "/CS"
 					(effects
@@ -768,7 +768,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.715 -12.7 90)
+				(at -5.08 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -786,9 +786,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.175 -12.7 90)
+				(at -2.54 -12.7 90)
 				(length 2.54)
-				(name "DI_(IO₀)"
+				(name "DI/IO₀"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -804,7 +804,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -840,7 +840,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.715 12.065 270)
+				(at -6.35 12.7 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
