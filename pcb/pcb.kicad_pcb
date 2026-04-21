@@ -3884,12 +3884,13 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5e78c153-09e3-4209-b873-7dfbfc124be1")
-		(at 19.6 58.825)
+		(at 6.615 60.245 90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "171bef00-3140-4885-9c15-00c2fad42e65")
 			(effects
 				(font
@@ -3899,8 +3900,9 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7b889f46-9ee3-4873-89ce-f6e98df51f57")
 			(effects
 				(font
@@ -3910,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fa75773-9fd8-46b1-9262-1dc7e625ea6c")
@@ -3921,7 +3923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3903eea9-acac-4b84-a943-4e316497bd81")
@@ -3932,7 +3934,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dfa7125d-b1a6-489d-bd79-91c883fb6392")
@@ -3944,7 +3946,7 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3991,7 +3993,7 @@
 			(uuid "1aecc4b2-7ad4-4d25-aff2-340d742764c8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "f11ec0be-f196-42e1-a683-9224a8ce2a64")
 			(effects
@@ -4002,21 +4004,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e43b63f4-f350-4511-9c48-6ad9b8400dfb")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "81d2131c-4660-42a3-895b-879a7571acaf")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4025,7 +4027,7 @@
 			(uuid "de13a34a-a4c5-4a66-b4fd-ffb798fe9f5f")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4055,7 +4057,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "45a1b26b-b452-4ed7-a4e1-22c7a5de7b75")
+			(uuid "6bbf3c4b-ed96-4821-b40c-720fba5bf3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -4068,7 +4070,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dc183b1-82b6-4be6-a6e4-82619d1549ea")
+			(uuid "40f7b9d5-e9d8-47f4-aef3-65e67336bcab")
 			(effects
 				(font
 					(size 1 1)
@@ -4081,7 +4083,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6192eb07-3b21-400e-9ceb-95936173f1b7")
+			(uuid "6cd5117c-dc48-41f5-8914-f7e6f138cd26")
 			(effects
 				(font
 					(size 1 1)
@@ -4094,7 +4096,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e5ee27d-53f2-40b5-a4b3-3c4555db34c6")
+			(uuid "bd0ac9b8-b7e6-4dc0-9f08-2e7a1db57e4f")
 			(effects
 				(font
 					(size 1 1)
@@ -4322,12 +4324,6 @@
 		(path "/a4b38ff3-df39-4400-a982-a54ecea76f12")
 		(sheetname "/")
 		(sheetfile "pcb.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "6" "8" "4" "5" "7" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4341,6 +4337,17 @@
 			(layer "F.SilkS")
 			(uuid "ef04b325-ccc9-4954-8487-4bb997059d6a")
 		)
+		(fp_circle
+			(center -2 2)
+			(end -1.75 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "9fab6b36-b42c-4d06-b89a-c8abdbe5a274")
+		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4352,12 +4359,6 @@
 					(thickness 0.15)
 				)
 			)
-		)
-		(point
-			(at 6.52 67.825)
-			(size 1)
-			(layer "F.SilkS")
-			(uuid "e47c2f95-ea60-4190-9a9d-c834d16d2c90")
 		)
 		(pad "1" smd roundrect
 			(at -1.905 3.625)
@@ -7880,6 +7881,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "9b332e1c-8343-4a03-811c-51087e8159f2")
+	)
+	(segment
+		(start 6.615 60.565)
+		(end 6.615 62.2)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "9d8fbb89-39b3-4b70-9453-43bcee5bec48")
 	)
 	(segment
 		(start 38.1 40.9375)
