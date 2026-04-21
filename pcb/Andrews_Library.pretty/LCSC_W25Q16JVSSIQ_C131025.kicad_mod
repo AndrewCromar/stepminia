@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -20.5 -16.5 0)
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7730b770-aed6-4ad9-9d47-b80031f46c5e")
+		(uuid "fa141486-51cf-43de-b3af-380104458a6f")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "LCSC_W25Q16JVSSIQ_C131025"
-		(at -20.5 -15 0)
+		(at 0 -7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ca0b0812-c2ab-4c4b-bbec-9597925248d8")
+		(uuid "f11434fe-6f95-4e58-b44f-557268906569")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f72a9ce7-4aa8-4309-8227-c1b8d7e342f3")
+		(uuid "4e7484c9-2a13-44e4-8859-ac78da4d144e")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b63975c4-4b86-4f69-8f57-d6e0d9c0c852")
+		(uuid "2ad70761-c391-4f3e-8dca-60e8a86296c9")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		(uuid "16154410-0d50-42c8-8f30-7a081e35d7ec")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -20.5 -13.5 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7e413a4c-3086-48e4-a217-05174a9e4653")
@@ -139,6 +139,36 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "c616f813-af75-4f89-b7d3-e56ad60e8d0c")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "e4e46d9b-df53-47f8-a8bb-0e2391e9c9b2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3 -4.499999) (xy 3 -4.499999) (xy 3 4.5) (xy -3 4.5)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
