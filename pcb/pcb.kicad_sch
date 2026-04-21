@@ -3792,6 +3792,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 85.09) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed13506-05cf-468f-a83a-0243b206b9e5")
+	)
+	(wire
+		(pts
 			(xy 171.45 36.83) (xy 177.8 36.83)
 		)
 		(stroke
@@ -4009,6 +4019,16 @@
 			(type default)
 		)
 		(uuid "99eb94d8-f83c-422e-9bfe-2e134f811d98")
+	)
+	(wire
+		(pts
+			(xy 171.45 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e53ad2e-a428-4322-8d5d-da98e42ed8c9")
 	)
 	(wire
 		(pts
@@ -4260,6 +4280,30 @@
 		)
 		(uuid "fe28e16d-c854-49ce-960c-5163f96971b4")
 	)
+	(global_label "GPIO-25"
+		(shape input)
+		(at 87.63 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f48b187-a28d-4d67-88fe-69ac763d9f30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0819 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO-17"
 		(shape input)
 		(at 87.63 143.51 0)
@@ -4273,6 +4317,30 @@
 		(uuid "24cd3759-878c-42ec-8e55-b1614f181287")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.0819 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-12"
+		(shape input)
+		(at 87.63 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3833f9ed-3184-4c85-8961-41f725abab32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0819 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,6 +4736,30 @@
 			)
 		)
 	)
+	(global_label "GPIO-25"
+		(shape input)
+		(at 222.25 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dedbcab3-6870-4269-a9d1-c91efc6f5d2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7981 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 36.83 123.19 180)
@@ -4729,6 +4821,30 @@
 		(uuid "e94ab015-59a4-4b66-bed7-d48d22742822")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.99 98.2579 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO-12"
+		(shape input)
+		(at 222.25 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4c86ea8-3a8d-4828-bbd0-f7079b3e4024")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7981 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4942,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Andrews_Library:DDR_CONTACT"
+		(property "Footprint" "Andrews_Library:DDR_CONTACT_MIRROR"
 			(at 229.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6386,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Andrews_Library:DDR_CONTACT"
+		(property "Footprint" "Andrews_Library:DDR_CONTACT_MIRROR"
 			(at 229.87 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8908,6 +9024,84 @@
 			(project "pcb"
 				(path "/37969d75-6775-4969-b3c5-2af34bbf809f"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52f0a87-16dd-4caa-86a4-bf67dbb814a2")
+		(property "Reference" "#PWR020"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2946db46-5e84-44da-b198-8dbefd431ae3")
+		)
+		(instances
+			(project "pcb"
+				(path "/37969d75-6775-4969-b3c5-2af34bbf809f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
