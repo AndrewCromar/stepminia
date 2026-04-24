@@ -1026,7 +1026,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -5.334 4.572 0)
+			(at 0 3.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1045,7 +1045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Andrews_Library:LCSC_X322512MSB4SI_C9002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1056,7 +1056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C9002.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1dYVwVWRFdYAl0CRgIKAQVVEQBZUVJSRlEIAgdXQ1kxVlNRQFFaUlVVR1ZaUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktQQlBADxALGw%3D%3D"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1075,6 +1075,102 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LCSC_X322512MSB4SI_C9002_1_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
