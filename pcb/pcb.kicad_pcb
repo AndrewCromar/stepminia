@@ -1433,11 +1433,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2919162e-5b8c-45f8-b313-c43bf06c0461")
-		(at 14.9 58.65 -90)
+		(at 40.85 52.97)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d0d27280-6731-4106-929e-e4d3456223c7")
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c286c329-753a-4133-9f32-1239178f9bae")
@@ -1461,7 +1461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49b5aa64-d41b-42de-8add-20b7128c2094")
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0420b3b0-e973-48ed-ad3f-57bfb676d4e3")
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c7b47dcf-9cc9-4e5a-ba2c-c6a272853713")
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1542,7 +1542,7 @@
 			(uuid "7932156b-5630-47e9-a7ce-7891ee097fe6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a44a7eab-6dd9-4729-97a5-594773bf589c")
 			(effects
@@ -1553,21 +1553,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 270)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "f2ce9f0a-a48d-4c54-aa20-173417510195")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 270)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "0ebdcabf-64bc-44f0-966a-d84f7b5601fb")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 270)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1576,7 +1576,7 @@
 			(uuid "6a7bbd5f-2efb-44be-a6f9-e3e103005006")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 270)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2405,9 +2405,9 @@
 	(footprint "Andrews_Library:LCSC_TS-1089S-02526_C455282"
 		(layer "F.Cu")
 		(uuid "3a8df3d5-74c0-40e2-9cac-3a3b2c9cc032")
-		(at 17.485 58.65 -90)
+		(at 40.85 50.385)
 		(property "Reference" "U12"
-			(at 0 -6 270)
+			(at 0 -6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -4.5 270)
+			(at 0 -4.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2433,7 +2433,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C455282.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=Q1dYVwVWRFdYAl0CRgIKAQVVEQBZUVJSRlEIAgdXQ1kxVlNRQVZWXlVVRlNYUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "LCSC" "C455282"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2483,14 +2483,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.1 1.625)
-			(end 2.1 1.625)
+			(start -2.1 -1.625)
+			(end 2.1 -1.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "371df305-a3fe-4b99-9ec7-0ca3533dee61")
+			(uuid "715b666c-4677-4c60-9749-29205c3bb57a")
 		)
 		(fp_line
 			(start -2.1 -0.5)
@@ -2503,6 +2503,16 @@
 			(uuid "10fa2b2b-ee08-47e2-ae22-8da3d935f2a4")
 		)
 		(fp_line
+			(start -2.1 1.625)
+			(end 2.1 1.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "371df305-a3fe-4b99-9ec7-0ca3533dee61")
+		)
+		(fp_line
 			(start 2.1 -0.5)
 			(end 2.1 0.5)
 			(stroke
@@ -2512,18 +2522,8 @@
 			(layer "F.SilkS")
 			(uuid "422b0cf1-1be0-436c-8e94-c173b8ab8ae8")
 		)
-		(fp_line
-			(start -2.1 -1.625)
-			(end 2.1 -1.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "715b666c-4677-4c60-9749-29205c3bb57a")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0021f178-b5c1-44ee-a93b-ee8258766206")
@@ -2535,7 +2535,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 2.15 1.085 270)
+			(at 2.15 1.085)
 			(size 1.3 0.73)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -2545,7 +2545,7 @@
 			(uuid "d4969f4f-ae0a-42a5-8376-adcbaecf027a")
 		)
 		(pad "2" smd roundrect
-			(at 2.15 -1.085 270)
+			(at 2.15 -1.085)
 			(size 1.3 0.73)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -2555,7 +2555,7 @@
 			(uuid "efcd95aa-a512-42f6-84e1-d5ec33843bb0")
 		)
 		(pad "3" smd roundrect
-			(at -2.15 1.085 270)
+			(at -2.15 1.085)
 			(size 1.3 0.73)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -2565,7 +2565,7 @@
 			(uuid "547dceeb-386c-4980-aca5-c5ec25d2fc70")
 		)
 		(pad "4" smd roundrect
-			(at -2.15 -1.085 270)
+			(at -2.15 -1.085)
 			(size 1.3 0.73)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -2600,7 +2600,7 @@
 			)
 			(polygon
 				(pts
-					(xy 19.485 55.65) (xy 19.485 61.65) (xy 15.485 61.65) (xy 15.485 55.65)
+					(xy 37.85 48.385) (xy 43.85 48.385) (xy 43.85 52.385) (xy 37.85 52.385)
 				)
 			)
 		)
@@ -9016,8 +9016,8 @@
 		(uuid "29bca4ab-ec63-4643-914a-e98f91e94fe1")
 	)
 	(segment
-		(start 14.9 58.33)
-		(end 14.9 56.5)
+		(start 40.53 52.97)
+		(end 38.7 52.97)
 		(width 0.4)
 		(layer "F.Cu")
 		(net "GND")
@@ -9152,8 +9152,8 @@
 		(uuid "cdebdc92-b3ab-437b-86b3-235f62b4ac51")
 	)
 	(segment
-		(start 18.57 56.5)
-		(end 14.9 56.5)
+		(start 38.7 49.3)
+		(end 38.7 52.97)
 		(width 0.73)
 		(layer "F.Cu")
 		(net "GND")
@@ -9347,7 +9347,7 @@
 		(uuid "a99914b2-fb31-4340-a38f-54dfb3ff5426")
 	)
 	(via
-		(at 14.9 56.5)
+		(at 38.7 52.97)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -10612,6 +10612,54 @@
 		(uuid "fe99f8a0-bf38-473d-86e1-d6c02e5cb2b0")
 	)
 	(segment
+		(start 43 45.365686)
+		(end 43 49.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "16f5b1b5-5dda-46c6-8624-2f10d1501c40")
+	)
+	(segment
+		(start 41.17 52.97)
+		(end 41.5 52.97)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "45fe1533-a05b-4ec4-87f1-da9229379525")
+	)
+	(segment
+		(start 43 51.47)
+		(end 43 49.3)
+		(width 0.73)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "bf1a1d48-ca52-494a-b210-99e9262aae45")
+	)
+	(segment
+		(start 39.3 40.9375)
+		(end 39.3 41.665686)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "d37510cc-f389-494c-9dcf-e459e9760fb0")
+	)
+	(segment
+		(start 41.5 52.97)
+		(end 43 51.47)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "edc8b1b9-f35b-4d60-b188-57b4f88c6cea")
+	)
+	(segment
+		(start 39.3 41.665686)
+		(end 43 45.365686)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "RUN")
+		(uuid "f310c2bf-878c-4489-a295-958a8cf9b0fb")
+	)
+	(segment
 		(start 40.9375 37.3)
 		(end 41.665686 37.3)
 		(width 0.2)
@@ -10845,6 +10893,14 @@
 			"cf8427b6-465b-493e-9947-7a0465764b62" "d1935751-456f-4883-a159-4dfe4b6ddd4c"
 			"d70bdebd-5174-401f-ab9f-6d77492b7c38" "deee6bf7-a490-4cca-a3b7-7114afd69a23"
 			"f601c40f-0a98-485b-a73e-e41fc2ebbc09" "faa3d2ee-5371-42f1-912d-1db73f624650"
+		)
+	)
+	(group ""
+		(uuid "aac53329-a01d-4853-9585-354cd6d80a1d")
+		(members "2919162e-5b8c-45f8-b313-c43bf06c0461" "30b683e7-1aee-4b2e-a800-3b7182541d2e"
+			"3a8df3d5-74c0-40e2-9cac-3a3b2c9cc032" "45fe1533-a05b-4ec4-87f1-da9229379525"
+			"aa9ec595-a7ad-49a8-87fc-53c61ca3a097" "bf1a1d48-ca52-494a-b210-99e9262aae45"
+			"d556038a-747d-4e25-94eb-6177ee140a0e" "edc8b1b9-f35b-4d60-b188-57b4f88c6cea"
 		)
 	)
 	(group ""
