@@ -3151,7 +3151,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO0-Pad2)")
 			(pinfunction "GPIO0_2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "365a5879-d5bf-436f-a73f-a0f705d7f567")
 		)
 		(pad "3" smd roundrect
@@ -3161,7 +3161,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO1-Pad3)")
 			(pinfunction "GPIO1_3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1db5c47b-8c0f-47ce-b154-f54eef40896e")
 		)
 		(pad "4" smd roundrect
@@ -3171,7 +3171,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO2-Pad4)")
 			(pinfunction "GPIO2_4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5df09531-e4a5-4552-b310-99cfaeb545f2")
 		)
 		(pad "5" smd roundrect
@@ -3181,7 +3181,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO3-Pad5)")
 			(pinfunction "GPIO3_5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "811f57b2-d3dc-4184-b7ce-5875892ef2a8")
 		)
 		(pad "6" smd roundrect
@@ -3191,7 +3191,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO4-Pad6)")
 			(pinfunction "GPIO4_6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d6deceef-30a4-4571-9734-b2036b70a00a")
 		)
 		(pad "7" smd roundrect
@@ -3201,7 +3201,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO5-Pad7)")
 			(pinfunction "GPIO5_7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1f452a2f-615e-491e-911c-261e0efa5245")
 		)
 		(pad "8" smd roundrect
@@ -3211,7 +3211,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO6-Pad8)")
 			(pinfunction "GPIO6_8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7638799b-6a86-4f8c-8e74-85c7ee2e6ef6")
 		)
 		(pad "9" smd roundrect
@@ -3221,7 +3221,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO7-Pad9)")
 			(pinfunction "GPIO7_9")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "00ce9a9c-c121-465a-9876-29cdb405859d")
 		)
 		(pad "10" smd roundrect
@@ -3241,7 +3241,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO8-Pad11)")
 			(pinfunction "GPIO8_11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "29af2ccd-a0e6-4869-bdd3-58f997375e7d")
 		)
 		(pad "12" smd roundrect
@@ -3251,7 +3251,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO9-Pad12)")
 			(pinfunction "GPIO9_12")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6379eba0-bf06-41f3-9b1a-719510ce7778")
 		)
 		(pad "13" smd roundrect
@@ -3261,7 +3261,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO10-Pad13)")
 			(pinfunction "GPIO10_13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f57f1af6-c55a-4ecc-8749-9bbca3fd069f")
 		)
 		(pad "14" smd roundrect
@@ -3271,7 +3271,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO11-Pad14)")
 			(pinfunction "GPIO11_14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "564cb532-eedc-46a1-8646-2eacfcb0c8b0")
 		)
 		(pad "15" smd roundrect
@@ -3291,7 +3291,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO13-Pad16)")
 			(pinfunction "GPIO13_16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "744c91ba-469d-4941-86d2-e26a454243cd")
 		)
 		(pad "17" smd roundrect
@@ -3301,7 +3301,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO14-Pad17)")
 			(pinfunction "GPIO14_17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bb1c969a-2139-4447-b8d7-10f4557e9c0f")
 		)
 		(pad "18" smd roundrect
@@ -3311,7 +3311,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO15-Pad18)")
 			(pinfunction "GPIO15_18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8f6792ac-76c7-4304-a6ff-393ba3471a83")
 		)
 		(pad "19" smd roundrect
@@ -3321,7 +3321,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-TESTEN-Pad19)")
 			(pinfunction "TESTEN_19")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "81c34c15-ebd1-42a2-aedb-5635f81364ee")
 		)
 		(pad "20" smd roundrect
@@ -3329,7 +3329,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U6-XIN-Pad20)")
+			(net "XIN")
 			(pinfunction "XIN_20")
 			(pintype "input")
 			(uuid "8cc3fbb5-0da8-42c1-9129-2fb582079197")
@@ -3339,7 +3339,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U6-XOUT-Pad21)")
+			(net "XOUT")
 			(pinfunction "XOUT_21")
 			(pintype "output")
 			(uuid "62001e4e-fc6d-4899-88e0-740ad2bd45af")
@@ -3371,7 +3371,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-SWCLK-Pad24)")
 			(pinfunction "SWCLK_24")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "29839eb2-ded4-46d6-bd16-03608ac20d98")
 		)
 		(pad "25" smd roundrect
@@ -3381,7 +3381,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-SWDIO-Pad25)")
 			(pinfunction "SWDIO_25")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6180d251-4df1-48ca-b355-321c1183efbc")
 		)
 		(pad "26" smd roundrect
@@ -3391,7 +3391,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-RUN-Pad26)")
 			(pinfunction "RUN_26")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "bd50b2aa-ea68-4071-b8bf-dea1622d8acc")
 		)
 		(pad "27" smd roundrect
@@ -3401,7 +3401,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO16-Pad27)")
 			(pinfunction "GPIO16_27")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "287ab3ce-ca81-4704-913b-efde633e2c0e")
 		)
 		(pad "28" smd roundrect
@@ -3431,7 +3431,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO19-Pad30)")
 			(pinfunction "GPIO19_30")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "32ab9aa1-f7a9-4e57-a219-c2b2f4e6824c")
 		)
 		(pad "31" smd roundrect
@@ -3441,7 +3441,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO20-Pad31)")
 			(pinfunction "GPIO20_31")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "39fb9c89-1a83-4b17-b1b8-3812c9e97961")
 		)
 		(pad "32" smd roundrect
@@ -3451,7 +3451,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO21-Pad32)")
 			(pinfunction "GPIO21_32")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "58f3ffe1-ac92-45bf-89fa-c6a788ee041c")
 		)
 		(pad "33" smd roundrect
@@ -3471,7 +3471,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO22-Pad34)")
 			(pinfunction "GPIO22_34")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "18f1b2d5-7cbc-473d-92a5-f48d26ef58a8")
 		)
 		(pad "35" smd roundrect
@@ -3481,7 +3481,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO23-Pad35)")
 			(pinfunction "GPIO23_35")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "cfe87421-d1a6-4251-a44f-a6392e1ae7e4")
 		)
 		(pad "36" smd roundrect
@@ -3491,7 +3491,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO24-Pad36)")
 			(pinfunction "GPIO24_36")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d40303f7-ab1c-4a7f-81ae-b8ae247df4d3")
 		)
 		(pad "37" smd roundrect
@@ -3511,7 +3511,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO26{slash}ADC0-Pad38)")
 			(pinfunction "GPIO26/ADC0_38")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9fffd223-f278-44dc-a24d-4ea1485be514")
 		)
 		(pad "39" smd roundrect
@@ -3521,7 +3521,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO27{slash}ADC1-Pad39)")
 			(pinfunction "GPIO27/ADC1_39")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9ae590d6-d351-41dc-a8df-c946309a087c")
 		)
 		(pad "40" smd roundrect
@@ -3531,7 +3531,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO28{slash}ADC2-Pad40)")
 			(pinfunction "GPIO28/ADC2_40")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c3062683-d5e3-4418-b190-c340752aa64e")
 		)
 		(pad "41" smd roundrect
@@ -3541,7 +3541,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-GPIO29{slash}ADC3-Pad41)")
 			(pinfunction "GPIO29/ADC3_41")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "eba2948c-dad6-46c1-ba57-425006d2047e")
 		)
 		(pad "42" smd roundrect
@@ -4255,6 +4255,173 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "874faef3-d8bf-4780-8924-a6406d0a5d1d")
+		(at 14.925 61.575)
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
+		(property "Reference" "R7"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4bfc4b84-9468-40b8-ad60-d12cdb0b3d8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12b454ae-a84f-4c84-8796-40af329347d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "696580d0-57f9-47d5-a8bd-2ea42bf3a8c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63aac6e4-fb8b-4ba4-8d54-4dc579b58fe8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "25f296f3-0866-4640-b3cb-d841da6e14fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22548"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f14acd8-fc9a-4da8-a7e6-da0a60f45a3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/2b5f3248-23c1-4cb5-8489-8b79b8abb9f0")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e3197db0-386b-46aa-9af1-619b934dc25a")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3fbc7ee0-d5eb-425e-941c-2361d9b5db28")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "834ba4c3-b963-40e5-9556-316bd1e29f74")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "39d71b66-479d-4279-bd50-b1cbf07696c0")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "3ff349a5-880e-4f6d-b869-4886f91e65bd")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "XOUT")
+			(pintype "passive")
+			(uuid "ab50836d-f8c1-45e0-a480-5d01766dc3c8")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "Net-(C16-Pad1)")
+			(pintype "passive")
+			(uuid "1019cc02-c9f9-4ff2-9e4e-16404227c790")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Andrews_Library:LCSC_W25Q16JVSSIQ_C131025"
 		(layer "F.Cu")
@@ -5022,6 +5189,12 @@
 		(path "/407a2bb1-b8fc-407d-8c8b-3878392a2b48")
 		(sheetname "/")
 		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6448,6 +6621,356 @@
 			)
 		)
 	)
+	(footprint "Andrews_Library:LCSC_X322512MSB4SI_C9002"
+		(layer "F.Cu")
+		(uuid "ba02bc5c-30cc-4642-aec9-399bc5ce4ac4")
+		(at 8.5 60.65)
+		(property "Reference" "U9"
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2bb9f069-d0f4-4967-a6b9-876fe0892325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "300be9c0-0d4c-443a-9019-ac6340b16309")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C9002.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1dYVwVWRFdYAl0CRgIKAQVVEQBZUVJSRlEIAgdXQ1kxVlNRQFFaUlVVR1ZaUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktQQlBADxALGw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9743d2e7-85b0-4d80-97dc-bdab9e1812c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ad4300b-28ed-450d-89ef-31c409b42a47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74846c9-8326-4765-aa3d-f273873ff39e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/93b0e337-5d3c-44af-9784-08186a5fbe8c")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2 -1.65)
+			(end 2 1.65)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9241460a-0920-4571-ad28-8c3200b10ccc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ea471e9b-4dc7-4175-b1a0-58c881f86cbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at -1.1 0.85)
+			(size 1.4 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "Net-(C16-Pad1)")
+			(pinfunction "OSC_1")
+			(pintype "power_in")
+			(uuid "4ac2fb25-4bc5-41e3-a80f-7848ebf15271")
+		)
+		(pad "2" thru_hole roundrect
+			(at 1.1 0.85)
+			(size 1.4 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(uuid "4d69eb89-017a-443a-94db-34dcdd82f07f")
+		)
+		(pad "3" thru_hole roundrect
+			(at 1.1 -0.85)
+			(size 1.4 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "XIN")
+			(pinfunction "OSC_3")
+			(pintype "power_in")
+			(uuid "5ae68563-80bf-4683-adb7-e015f828bf3f")
+		)
+		(pad "4" thru_hole roundrect
+			(at -1.1 -0.85)
+			(size 1.4 1.2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_4")
+			(pintype "power_in")
+			(uuid "3f90bee7-3982-47db-9a35-5b33739d4b68")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "140ceaaa-5e4c-473a-9ebb-ca3023bfaefc")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 6.5 59) (xy 10.5 59) (xy 10.5 62.3) (xy 6.5 62.3)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "bc6fd3de-20dd-4c33-8ee9-b43a99e22770")
+		(at 14.925 59.825)
+		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "capacitor")
+		(property "Reference" "C17"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4965af7-9cda-40ba-9d49-56739f85bf51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "15pF"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83cae82c-0bde-4f90-b028-b8e8ec5320f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a4653b-7c31-4c0c-87ce-80a7430660a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbdf18e1-dc10-4ab8-9e1b-0ffa385951df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24e481ae-c872-4475-9a07-a1e1b2359002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1644"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "139dad8e-ba1b-48c2-ba4d-de12b54955b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/08df00ed-70c5-4219-874e-de2e88c68298")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8d0a4f15-afe1-4a8d-b64d-40105e16d184")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "290ac686-6414-400e-ae6b-bbbf39c504ac")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "753c56b2-93cc-4e25-8616-335fdb222a35")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "28624f1f-2f1b-4e94-a14a-33c2f3b0da66")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "f234afb9-7a66-4959-86d0-6002e2ae2abc")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "XIN")
+			(pintype "passive")
+			(uuid "e4fdf872-3ecd-4ba2-a1af-09588573ce7b")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "f18bf9e5-cb52-4dd5-ab4b-141c005938a8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c16a55e6-c9ba-4bf5-9418-845e8fc3c2c0")
@@ -7239,6 +7762,173 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "8ebefc6c-0d4d-455a-b8a1-7d12072f2cde")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "e2f5a788-253f-4cbe-be13-5cfbb3ba2324")
+		(at 5.62 61.6 180)
+		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "capacitor")
+		(property "Reference" "C16"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d2fc002-c96d-4258-9caa-08e5fba51392")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "15pF"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5ee807c-5444-442e-ae66-9b62e11310b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aa240f6-7273-412d-965d-405a01b288fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fc53afd-c1f3-4ab7-ab81-55c35b2c2b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8152c43-361e-44e4-92bd-cae7993c8611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1644"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6f3ef60-4ec1-4fac-9aa4-d49c91b6f4c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/8454f72f-6247-4c4b-ab7b-1f1b5841b531")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "15f9f85b-bfe0-4724-b559-18745538cb9b")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "55f443e5-5330-414a-84e6-c754df2c867c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "22e054d1-ccc9-4d88-b805-35b66ea63f35")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0 180)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "8fc96259-2a1b-4cb9-b881-ae18f38861ed")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0 180)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "e62a413d-836c-4259-8b7d-1e42bd79fd61")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0 180)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "Net-(C16-Pad1)")
+			(pintype "passive")
+			(uuid "22aea5da-4f4b-467c-a128-e706d6d51181")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0 180)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "e8827c53-e20a-49ce-ae9e-eca6ba1e2c52")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
@@ -8279,6 +8969,30 @@
 		(uuid "abcafe7d-eb09-43b3-bbef-1929e9fc3238")
 	)
 	(segment
+		(start 45 33.4)
+		(end 45 21.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPIO-25")
+		(uuid "340bd939-00f9-4f42-927c-0e640979b54f")
+	)
+	(segment
+		(start 40.9375 36.9)
+		(end 41.5 36.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPIO-25")
+		(uuid "488070b4-2f1d-4d7a-b357-28af655bb6c5")
+	)
+	(segment
+		(start 41.5 36.9)
+		(end 45 33.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPIO-25")
+		(uuid "57c16d8e-fbbd-4f40-ac48-4357cfb41e3f")
+	)
+	(segment
 		(start 33.96614 34.0625)
 		(end 30.42864 37.6)
 		(width 0.2)
@@ -8509,6 +9223,22 @@
 		(layer "F.Cu")
 		(net "VBUS")
 		(uuid "deee6bf7-a490-4cca-a3b7-7114afd69a23")
+	)
+	(segment
+		(start 34.9 40.9375)
+		(end 30.3375 45.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPIO-12")
+		(uuid "14c77755-ce5b-4ca9-a4af-5fcdbcac1b33")
+	)
+	(segment
+		(start 30.3375 45.5)
+		(end 20.55 45.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPIO-12")
+		(uuid "5360411e-d800-4a85-9424-af9837923000")
 	)
 	(segment
 		(start 41.9 40.1)
@@ -8901,46 +9631,6 @@
 		(layer "F.Cu")
 		(net "Net-(U1-VIN)")
 		(uuid "e2951551-5bd3-452b-943a-e5c31ddf3bfe")
-	)
-	(segment
-		(start 45 33.4)
-		(end 45 21.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPIO-25")
-		(uuid "340bd939-00f9-4f42-927c-0e640979b54f")
-	)
-	(segment
-		(start 40.9375 36.9)
-		(end 41.5 36.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPIO-25")
-		(uuid "488070b4-2f1d-4d7a-b357-28af655bb6c5")
-	)
-	(segment
-		(start 41.5 36.9)
-		(end 45 33.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPIO-25")
-		(uuid "57c16d8e-fbbd-4f40-ac48-4357cfb41e3f")
-	)
-	(segment
-		(start 34.9 40.9375)
-		(end 30.3375 45.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPIO-12")
-		(uuid "14c77755-ce5b-4ca9-a4af-5fcdbcac1b33")
-	)
-	(segment
-		(start 30.3375 45.5)
-		(end 20.55 45.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPIO-12")
-		(uuid "5360411e-d800-4a85-9424-af9837923000")
 	)
 	(zone
 		(net "GND")
