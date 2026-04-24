@@ -3408,7 +3408,7 @@
 	)
 	(rectangle
 		(start 209.55 15.24)
-		(end 246.38 58.42)
+		(end 248.92 60.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -4458,7 +4458,7 @@
 	)
 	(global_label "GPIO-17"
 		(shape input)
-		(at 222.25 38.1 180)
+		(at 223.52 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4468,7 +4468,7 @@
 		)
 		(uuid "4994d1f6-8574-43b3-b0e0-be63f4094374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7981 38.1 0)
+			(at 212.0681 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4482,7 @@
 	)
 	(global_label "GPIO-18"
 		(shape input)
-		(at 222.25 46.99 180)
+		(at 223.52 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4492,7 +4492,7 @@
 		)
 		(uuid "520eeb95-e25b-48c1-a642-acb79fa68dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7981 46.99 0)
+			(at 212.0681 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +4842,7 @@
 	)
 	(global_label "GPIO-25"
 		(shape input)
-		(at 222.25 29.21 180)
+		(at 223.52 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4852,7 +4852,7 @@
 		)
 		(uuid "dedbcab3-6870-4269-a9d1-c91efc6f5d2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7981 29.21 0)
+			(at 212.0681 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +4938,7 @@
 	)
 	(global_label "GPIO-12"
 		(shape input)
-		(at 222.25 55.88 180)
+		(at 223.52 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4948,7 +4948,7 @@
 		)
 		(uuid "f4c86ea8-3a8d-4828-bbd0-f7079b3e4024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7981 55.88 0)
+			(at 212.0681 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5133,7 @@
 	(symbol
 		(lib_name "DDR_CONTACT_1")
 		(lib_id "Andrews_Library:DDR_CONTACT")
-		(at 229.87 27.94 0)
+		(at 231.14 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5143,7 +5143,7 @@
 		(dnp no)
 		(uuid "0e4e2765-6740-49a0-8b38-021907c0f954")
 		(property "Reference" "U2"
-			(at 225.806 24.13 0)
+			(at 227.076 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5153,7 +5153,7 @@
 			)
 		)
 		(property "Value" "NORTH"
-			(at 232.156 24.13 0)
+			(at 233.426 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5163,7 +5163,7 @@
 			)
 		)
 		(property "Footprint" "Andrews_Library:DDR_CONTACT_MIRROR"
-			(at 229.87 27.94 0)
+			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,7 +5174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 27.94 0)
+			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +5185,7 @@
 			)
 		)
 		(property "Description" "It is a button basically."
-			(at 229.87 27.94 0)
+			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 46.99 90)
+		(at 238.76 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5575,7 +5575,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e419699-45af-4bd2-8fa0-169d41fbbc8b")
 		(property "Reference" "#PWR011"
-			(at 243.84 46.99 0)
+			(at 245.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +5586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 46.9899 90)
+			(at 242.57 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5597,7 +5597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 46.99 0)
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 46.99 0)
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 46.99 0)
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5643,7 @@
 	)
 	(symbol
 		(lib_id "Andrews_Library:DDR_CONTACT")
-		(at 229.87 54.61 0)
+		(at 231.14 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5653,7 +5653,7 @@
 		(dnp no)
 		(uuid "407a2bb1-b8fc-407d-8c8b-3878392a2b48")
 		(property "Reference" "U5"
-			(at 225.806 50.8 0)
+			(at 227.076 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5663,7 +5663,7 @@
 			)
 		)
 		(property "Value" "WEST"
-			(at 232.918 50.8 0)
+			(at 234.188 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5673,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "Andrews_Library:DDR_CONTACT"
-			(at 229.87 54.61 0)
+			(at 231.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 54.61 0)
+			(at 231.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +5695,7 @@
 			)
 		)
 		(property "Description" "It is a button basically."
-			(at 229.87 54.61 0)
+			(at 231.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +5801,7 @@
 	(symbol
 		(lib_name "DDR_CONTACT_2")
 		(lib_id "Andrews_Library:DDR_CONTACT")
-		(at 229.87 36.83 0)
+		(at 231.14 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5811,7 +5811,7 @@
 		(dnp no)
 		(uuid "49f3ad57-78ff-45b7-b01d-0a49a8f3608f")
 		(property "Reference" "U3"
-			(at 225.806 33.02 0)
+			(at 227.076 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5821,7 +5821,7 @@
 			)
 		)
 		(property "Value" "SOUTH"
-			(at 232.156 33.02 0)
+			(at 233.426 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5831,7 +5831,7 @@
 			)
 		)
 		(property "Footprint" "Andrews_Library:DDR_CONTACT"
-			(at 229.87 36.83 0)
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 36.83 0)
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +5853,7 @@
 			)
 		)
 		(property "Description" "It is a button basically."
-			(at 229.87 36.83 0)
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +5970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 29.21 90)
+		(at 238.76 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5981,7 +5981,7 @@
 		(fields_autoplaced yes)
 		(uuid "566308e4-089e-4123-98fc-3febedf2c10e")
 		(property "Reference" "#PWR09"
-			(at 243.84 29.21 0)
+			(at 245.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5992,7 +5992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 29.2099 90)
+			(at 242.57 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6003,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 29.21 0)
+			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 29.21 0)
+			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 29.21 0)
+			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6577,7 @@
 	(symbol
 		(lib_name "DDR_CONTACT_3")
 		(lib_id "Andrews_Library:DDR_CONTACT")
-		(at 229.87 45.72 0)
+		(at 231.14 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6587,7 +6587,7 @@
 		(dnp no)
 		(uuid "72d9b924-31d0-49ed-907a-89a7a779f429")
 		(property "Reference" "U4"
-			(at 225.806 41.91 0)
+			(at 227.076 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Value" "EAST"
-			(at 232.918 41.91 0)
+			(at 234.188 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6607,7 +6607,7 @@
 			)
 		)
 		(property "Footprint" "Andrews_Library:DDR_CONTACT_MIRROR"
-			(at 229.87 45.72 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +6618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 45.72 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,7 +6629,7 @@
 			)
 		)
 		(property "Description" "It is a button basically."
-			(at 229.87 45.72 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8514,7 +8514,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 38.1 90)
+		(at 238.76 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8525,7 +8525,7 @@
 		(fields_autoplaced yes)
 		(uuid "c085040d-3889-4cc6-a8b4-d6672b1cccde")
 		(property "Reference" "#PWR010"
-			(at 243.84 38.1 0)
+			(at 245.11 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +8536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 38.0999 90)
+			(at 242.57 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8547,7 +8547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 38.1 0)
+			(at 238.76 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +8558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 38.1 0)
+			(at 238.76 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 38.1 0)
+			(at 238.76 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +8718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 55.88 90)
+		(at 238.76 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8729,7 +8729,7 @@
 		(fields_autoplaced yes)
 		(uuid "c880b031-b5c4-479c-bccb-9050ed9d6cba")
 		(property "Reference" "#PWR012"
-			(at 243.84 55.88 0)
+			(at 245.11 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 55.8799 90)
+			(at 242.57 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8751,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 55.88 0)
+			(at 238.76 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 55.88 0)
+			(at 238.76 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 55.88 0)
+			(at 238.76 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
