@@ -4728,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 68.58) (xy 336.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25db9b90-a99e-4031-9113-0345d87b8136")
+	)
+	(wire
+		(pts
 			(xy 102.87 160.655) (xy 102.87 161.925)
 		)
 		(stroke
@@ -4815,6 +4825,16 @@
 			(type default)
 		)
 		(uuid "2edd35ee-8753-4b71-91ce-007617762d5e")
+	)
+	(wire
+		(pts
+			(xy 332.74 45.72) (xy 336.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f637097-603f-4160-8be3-4ac4b1a8f985")
 	)
 	(wire
 		(pts
@@ -5305,6 +5325,16 @@
 			(type default)
 		)
 		(uuid "71cee0f9-8a52-493f-81e3-247464fa0669")
+	)
+	(wire
+		(pts
+			(xy 332.74 57.15) (xy 336.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e81c36-64ca-485b-af7e-1edb328b9a29")
 	)
 	(wire
 		(pts
@@ -6018,6 +6048,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 80.01) (xy 336.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da60d7e4-1dfa-4454-bb74-fedf9da58b1e")
+	)
+	(wire
+		(pts
 			(xy 109.22 163.195) (xy 109.22 161.925)
 		)
 		(stroke
@@ -6356,6 +6396,16 @@
 		)
 		(uuid "01e560a0-4553-449d-bfe7-faaa4ba54f69")
 	)
+	(label "GPIO11"
+		(at 332.74 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "047d19f4-b175-4814-9f65-c50ca1925977")
+	)
 	(label "QSPI_SS"
 		(at 76.2 186.055 0)
 		(effects
@@ -6546,6 +6596,16 @@
 		)
 		(uuid "55bdeef0-439e-442f-8343-c7a1ae16f3b0")
 	)
+	(label "GPIO24"
+		(at 332.74 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62b97f20-18c0-4e9d-a212-9a531d154d91")
+	)
 	(label "GPIO0"
 		(at 245.11 111.76 180)
 		(effects
@@ -6645,6 +6705,16 @@
 			(justify right bottom)
 		)
 		(uuid "8ec10931-b571-443a-a84b-19552a9e36bf")
+	)
+	(label "GPIO23"
+		(at 332.74 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8edec1a8-24a3-46ad-948f-50c1bb9f36a2")
 	)
 	(label "SWCLK"
 		(at 152.4 176.53 0)
@@ -6765,6 +6835,16 @@
 			(justify right bottom)
 		)
 		(uuid "bda8e14f-b278-4e47-9e21-a237075e0326")
+	)
+	(label "GPIO25"
+		(at 332.74 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3777bd4-3b1b-4ac8-800b-d35f507e17cc")
 	)
 	(label "QSPI_SS"
 		(at 152.4 113.03 0)
@@ -11020,7 +11100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Andrews_Library:DDR_CONTACT"
+		(property "Footprint" "Andrews_Library:DDR_CONTACT_MIRROR"
 			(at 341.63 40.64 0)
 			(hide yes)
 			(show_name no)
