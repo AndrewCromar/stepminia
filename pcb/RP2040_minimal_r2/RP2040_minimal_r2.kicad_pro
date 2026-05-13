@@ -234,7 +234,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "REV2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -878,7 +878,7 @@
       {
         "filename": "RP2040_minimal_r2.kicad_sch",
         "name": "RP2040_minimal_r2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
     "used_designators": "",
@@ -887,7 +887,7 @@
   "sheets": [
     [
       "8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
-      ""
+      "RP2040_minimal_r2"
     ]
   ],
   "text_variables": {},
