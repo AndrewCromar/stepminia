@@ -1,21 +1,25 @@
 #include <Arduino.h>
+#include <Adafruit_TinyUSB.h>
 #include "buttons.h"
 #include "debug_logger.h"
-#include "gamepad.h"
+#include "keyboard_input.h"
 
 Buttons buttons;
 DebugLogger logger;
-Gamepad gamepad;
+KeyboardInput keyboard;
 
 void setup() {
+  TinyUSBDevice.setManufacturerDescriptor("Andrew Cromar");
+  TinyUSBDevice.setProductDescriptor("Stepminia");
+
   logger.begin();
   buttons.begin();
-  gamepad.begin();
+  keyboard.begin();
 }
 
 void loop() {
   buttons.update();
-  gamepad.sendReport(buttons);
+  keyboard.update(buttons);
   logger.logButtons(buttons);
   delay(10);
 }
