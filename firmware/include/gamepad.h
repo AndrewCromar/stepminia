@@ -3,24 +3,19 @@
 #include <Arduino.h>
 #include <Adafruit_TinyUSB.h>
 #include "buttons.h"
-#include "joystick.h"
 
 struct GamepadReport {
-  uint16_t buttons;
+  uint8_t buttons;
   uint8_t hat;
-  int8_t lx;
-  int8_t ly;
-  int8_t rx;
-  int8_t ry;
 } __attribute__((packed));
 
 class Gamepad {
 public:
   void begin();
-  void sendReport(Buttons& buttons, Joystick& leftStick);
+  void sendReport(Buttons& buttons);
 
 private:
   Adafruit_USBD_HID _hid;
   GamepadReport _report;
-  uint8_t hatFromDpad(bool n, bool s, bool e, bool w);
+  uint8_t hatFromDpad(bool up, bool down, bool left, bool right);
 };

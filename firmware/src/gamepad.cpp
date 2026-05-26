@@ -5,22 +5,14 @@ static uint8_t const desc_hid_report[] = {
   0x09, 0x05,        // Usage (Game Pad)
   0xA1, 0x01,        // Collection (Application)
 
-  // Buttons
+  // Buttons: Select (Minus), Start (Plus)
   0x05, 0x09,        //   Usage Page (Button)
-  0x09, 0x01,        //   Usage (Button 1)  - A
-  0x09, 0x02,        //   Usage (Button 2)  - B
-  0x09, 0x05,        //   Usage (Button 5)  - X
-  0x09, 0x04,        //   Usage (Button 4)  - Y
-  0x09, 0x07,        //   Usage (Button 7)  - LB
-  0x09, 0x08,        //   Usage (Button 8)  - RB
-  0x09, 0x09,        //   Usage (Button 9)  - LT
-  0x09, 0x0A,        //   Usage (Button 10) - RT
-  0x09, 0x0B,        //   Usage (Button 11) - Select
-  0x09, 0x0C,        //   Usage (Button 12) - Start
+  0x09, 0x09,        //   Usage (Button 9)  - Select
+  0x09, 0x0A,        //   Usage (Button 10) - Start
   0x15, 0x00,        //   Logical Minimum (0)
   0x25, 0x01,        //   Logical Maximum (1)
   0x75, 0x01,        //   Report Size (1)
-  0x95, 0x0A,        //   Report Count (10)
+  0x95, 0x02,        //   Report Count (2)
   0x81, 0x02,        //   Input (Data, Var, Abs)
 
   // Padding
@@ -40,30 +32,18 @@ static uint8_t const desc_hid_report[] = {
   0x95, 0x01,        //   Report Count (1)
   0x81, 0x42,        //   Input (Data, Var, Abs, Null State)
 
-  // Axes: LX, LY, RX, RY
-  0x05, 0x01,        //   Usage Page (Generic Desktop)
-  0x09, 0x30,        //   Usage (X)
-  0x09, 0x31,        //   Usage (Y)
-  0x09, 0x33,        //   Usage (Rx)
-  0x09, 0x34,        //   Usage (Ry)
-  0x15, 0x81,        //   Logical Minimum (-127)
-  0x25, 0x7F,        //   Logical Maximum (127)
-  0x75, 0x08,        //   Report Size (8)
-  0x95, 0x04,        //   Report Count (4)
-  0x81, 0x02,        //   Input (Data, Var, Abs)
-
   0xC0               // End Collection
 };
 
-uint8_t Gamepad::hatFromDpad(bool n, bool s, bool e, bool w) {
-  if (n && e) return 2;
-  if (n && w) return 8;
-  if (s && e) return 4;
-  if (s && w) return 6;
-  if (n) return 1;
-  if (e) return 3;
-  if (s) return 5;
-  if (w) return 7;
+uint8_t Gamepad::hatFromDpad(bool up, bool down, bool left, bool right) {
+  if (up && right)   return 2;
+  if (up && left)    return 8;
+  if (down && right) return 4;
+  if (down && left)  return 6;
+  if (up)            return 1;
+  if (right)         return 3;
+  if (down)          return 5;
+  if (left)          return 7;
   return 0;
 }
 
@@ -79,22 +59,14 @@ void Gamepad::begin() {
   memset(&_report, 0, sizeof(_report));
 }
 
-void Gamepad::sendReport(Buttons& buttons, Joystick& leftStick) {
+void Gamepad::sendReport(Buttons& buttons) {
   if (!_hid.ready()) return;
 
   _report.buttons = 0;
-  if (buttons.rightS) _report.buttons |= (1 << 0);
-  if (buttons.rightE) _report.buttons |= (1 << 1);
-  if (buttons.rightW) _report.buttons |= (1 << 2);
-  if (buttons.rightN) _report.buttons |= (1 << 3);
+  if (buttons.minus) _report.buttons |= (1 << 0);
+  if (buttons.plus)  _report.buttons |= (1 << 1);
 
-  _report.hat = hatFromDpad(buttons.leftN, buttons.leftS,
-                            buttons.leftE, buttons.leftW);
-
-  _report.rx = -leftStick.x;
-  _report.ry = -leftStick.y;
-  _report.lx = 0;
-  _report.ly = 0;
+  _report.hat = hatFromDpad(buttons.up, buttons.down, buttons.left, buttons.right);
 
   _hid.sendReport(0, &_report, sizeof(_report));
 }

@@ -5,15 +5,12 @@
 
 class Buttons {
 public:
-  bool leftN = false;
-  bool leftE = false;
-  bool leftS = false;
-  bool leftW = false;
-
-  bool rightN = false;
-  bool rightE = false;
-  bool rightS = false;
-  bool rightW = false;
+  bool up    = false;
+  bool down  = false;
+  bool left  = false;
+  bool right = false;
+  bool plus  = false;
+  bool minus = false;
 
   void begin();
   void update();

@@ -1,30 +1,23 @@
 #include "buttons.h"
 
 void Buttons::begin() {
-  pinMode(PIN_LEFT_N, INPUT_PULLUP);
-  pinMode(PIN_LEFT_E, INPUT_PULLUP);
-  pinMode(PIN_LEFT_S, INPUT_PULLUP);
-  pinMode(PIN_LEFT_W, INPUT_PULLUP);
-
-  pinMode(PIN_RIGHT_N, INPUT_PULLUP);
-  pinMode(PIN_RIGHT_E, INPUT_PULLUP);
-  pinMode(PIN_RIGHT_S, INPUT_PULLUP);
-  pinMode(PIN_RIGHT_W, INPUT_PULLUP);
+  pinMode(PIN_UP,    INPUT_PULLUP);
+  pinMode(PIN_DOWN,  INPUT_PULLUP);
+  pinMode(PIN_LEFT,  INPUT_PULLUP);
+  pinMode(PIN_RIGHT, INPUT_PULLUP);
+  pinMode(PIN_PLUS,  INPUT_PULLUP);
+  pinMode(PIN_MINUS, INPUT_PULLUP);
 }
 
 void Buttons::update() {
-  leftN  = digitalRead(PIN_LEFT_N) == LOW;
-  leftE  = digitalRead(PIN_LEFT_E) == LOW;
-  leftS  = digitalRead(PIN_LEFT_S) == LOW;
-  leftW  = digitalRead(PIN_LEFT_W) == LOW;
-
-  rightN = digitalRead(PIN_RIGHT_N) == LOW;
-  rightE = digitalRead(PIN_RIGHT_E) == LOW;
-  rightS = digitalRead(PIN_RIGHT_S) == LOW;
-  rightW = digitalRead(PIN_RIGHT_W) == LOW;
+  up    = digitalRead(PIN_UP)    == LOW;
+  down  = digitalRead(PIN_DOWN)  == LOW;
+  left  = digitalRead(PIN_LEFT)  == LOW;
+  right = digitalRead(PIN_RIGHT) == LOW;
+  plus  = digitalRead(PIN_PLUS)  == LOW;
+  minus = digitalRead(PIN_MINUS) == LOW;
 }
 
 bool Buttons::anyPressed() {
-  return leftN || leftE || leftS || leftW ||
-         rightN || rightE || rightS || rightW;
+  return up || down || left || right || plus || minus;
 }
