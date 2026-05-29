@@ -1,0 +1,25 @@
+.collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.collage img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 700px) {
+  .collage { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 450px) {
+  .collage { grid-template-columns: repeat(2, 1fr); }
+}
