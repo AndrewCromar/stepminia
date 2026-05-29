@@ -1,4 +1,3 @@
-- Download CAD files.
 - Make website.
 - Make instructions.
 - Firmware V2.
