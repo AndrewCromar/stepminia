@@ -42,3 +42,4 @@ nav:
   - Guide:
       - Overview: guide/index.md
       - PCB: guide/pcb.md
+      - Firmware: guide/firmware.md
