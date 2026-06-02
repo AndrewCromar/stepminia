@@ -43,3 +43,9 @@ nav:
       - Overview: guide/index.md
       - PCB: guide/pcb.md
       - Firmware: guide/firmware.md
+  - Noob Guide:
+      - Overview: noobguide/index.md
+      - Gathering Parts:
+          - Overview: noobguide/parts/index.md
+          - Components: noobguide/parts/components.md
+          - PCB: noobguide/parts/pcb.md
