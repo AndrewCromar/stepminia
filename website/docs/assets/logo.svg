@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450" xmlns:bx="https://boxy-svg.com">
+  <rect width="150" height="150" style="stroke-linejoin: round; stroke-width: 7.5px; stroke: rgb(0, 0, 0); fill: rgb(74, 74, 74);"/>
+  <rect width="150" height="150" style="stroke: rgb(0, 0, 0); stroke-linejoin: round; stroke-width: 7.5; fill: rgb(215, 0, 155);" x="300" y="150"/>
+  <rect width="150" height="150" style="stroke: rgb(0, 0, 0); stroke-linejoin: round; stroke-width: 7.5; fill: rgb(10, 0, 221);" x="150"/>
+  <rect width="150" height="150" style="stroke-linejoin: round; stroke-width: 7.5; stroke: rgb(0, 0, 0); fill: rgb(74, 74, 74);" x="300"/>
+  <rect width="150" height="150" style="stroke: rgb(0, 0, 0); stroke-linejoin: round; stroke-width: 7.5px; fill: rgb(215, 0, 155);" y="150"/>
+  <rect width="150" height="150" style="stroke-linejoin: round; stroke-width: 7.5; stroke: rgb(0, 0, 0); fill: rgb(74, 74, 74);" x="150" y="150"/>
+  <rect width="150" height="150" style="stroke-linejoin: round; stroke-width: 7.5px; stroke: rgb(0, 0, 0); fill: rgb(74, 74, 74);" y="300"/>
+  <rect width="150" height="150" style="stroke: rgb(0, 0, 0); stroke-linejoin: round; stroke-width: 7.5; fill: rgb(10, 0, 221);" x="150" y="300"/>
+  <rect width="150" height="150" style="stroke-linejoin: round; stroke-width: 7.5; stroke: rgb(0, 0, 0); fill: rgb(74, 74, 74);" x="300" y="300"/>
+  <g transform="matrix(1, 0, 0, 1, -0.000504, -0.000002)">
+    <path d="M 225.001 22.475 L 276.515 82.816 L 173.486 82.816 L 225.001 22.475 Z" bx:shape="triangle 173.486 22.475 103.029 60.341 0.5 0 1@d28ad608" style="stroke-width: 7.5px; stroke-linejoin: round; stroke: rgb(255, 255, 255);"/>
+    <rect x="200.905" y="68.569" width="47.04" height="58.956" style="stroke: rgb(255, 255, 255); stroke-width: 7.5px; stroke-linejoin: round;"/>
+    <path d="M 225.001 31.713 L 264.68 79.188 L 185.322 79.188 L 225.001 31.713 Z" bx:shape="triangle 185.322 31.713 79.358 47.475 0.5 0 1@1f08d093" style="stroke-width: 7.5; stroke-linejoin: round;"/>
+  </g>
+  <g transform="matrix(0, 1, -1, 0, 149.999496, 150)" style="transform-origin: 225.001px 75px;">
+    <path d="M 225.001 22.475 L 276.515 82.816 L 173.486 82.816 L 225.001 22.475 Z" bx:shape="triangle 173.486 22.475 103.029 60.341 0.5 0 1@d28ad608" style="stroke-width: 7.5px; stroke-linejoin: round; stroke: rgb(255, 255, 255);"/>
+    <rect x="200.905" y="68.569" width="47.04" height="58.956" style="stroke: rgb(255, 255, 255); stroke-width: 7.5px; stroke-linejoin: round;"/>
+    <path d="M 225.001 31.713 L 264.68 79.188 L 185.322 79.188 L 225.001 31.713 Z" bx:shape="triangle 185.322 31.713 79.358 47.475 0.5 0 1@1f08d093" style="stroke-width: 7.5; stroke-linejoin: round;"/>
+  </g>
+  <g transform="matrix(-1, 0, 0, -1, -0.001511, 300)" style="transform-origin: 225.001px 75px;">
+    <path d="M 225.001 22.475 L 276.515 82.816 L 173.486 82.816 L 225.001 22.475 Z" bx:shape="triangle 173.486 22.475 103.029 60.341 0.5 0 1@d28ad608" style="stroke-width: 7.5px; stroke-linejoin: round; stroke: rgb(255, 255, 255);"/>
+    <rect x="200.905" y="68.569" width="47.04" height="58.956" style="stroke: rgb(255, 255, 255); stroke-width: 7.5px; stroke-linejoin: round;"/>
+    <path d="M 225.001 31.713 L 264.68 79.188 L 185.322 79.188 L 225.001 31.713 Z" bx:shape="triangle 185.322 31.713 79.358 47.475 0.5 0 1@1f08d093" style="stroke-width: 7.5; stroke-linejoin: round;"/>
+  </g>
+  <g transform="matrix(0, -1, 1, 0, -150.001007, 149.999496)" style="transform-origin: 225.001px 75px;">
+    <path d="M 225.001 22.475 L 276.515 82.816 L 173.486 82.816 L 225.001 22.475 Z" bx:shape="triangle 173.486 22.475 103.029 60.341 0.5 0 1@d28ad608" style="stroke-width: 7.5px; stroke-linejoin: round; stroke: rgb(255, 255, 255);"/>
+    <rect x="200.905" y="68.569" width="47.04" height="58.956" style="stroke: rgb(255, 255, 255); stroke-width: 7.5px; stroke-linejoin: round;"/>
+    <path d="M 225.001 31.713 L 264.68 79.188 L 185.322 79.188 L 225.001 31.713 Z" bx:shape="triangle 185.322 31.713 79.358 47.475 0.5 0 1@1f08d093" style="stroke-width: 7.5; stroke-linejoin: round;"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -1.597519, 0)">
+    <ellipse style="fill: rgb(255, 0, 0); stroke: rgb(0, 0, 0); stroke-width: 7.5px;" cx="352.475" cy="28.509" rx="13.274" ry="13.274"/>
+    <ellipse style="stroke-width: 7.5; stroke: rgb(0, 0, 0); fill: rgb(0, 255, 24);" cx="400.72" cy="28.509" rx="13.274" ry="13.274"/>
+  </g>
+</svg>

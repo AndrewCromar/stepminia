@@ -1,13 +1,13 @@
 site_name: Stepminia
-site_description: Desktop finger Stepmania dance-pad — build guide, about, and gallery.
-site_url: https://stepminia.vercel.app/
+site_description: Mini Stepmania dance-pad for desktop finger gaming.
+site_url: https://stepminia.andrewcromar.org/
 repo_url: https://github.com/AndrewCromar/stepminia
 repo_name: AndrewCromar/stepminia
 
 theme:
   name: material
-  logo: assets/favicon.ico
-  favicon: assets/favicon.ico
+  logo: assets/logo.svc
+  favicon: assets/logo.svc
   icon:
     repo: fontawesome/brands/github
   features:
