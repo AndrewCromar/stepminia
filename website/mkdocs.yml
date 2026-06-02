@@ -31,9 +31,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-extra_css:
-  - stylesheets/extra.css
-
 markdown_extensions:
   - attr_list
   - md_in_html        # enables the image grid in gallery.md
@@ -42,11 +39,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - About: about.md
   - Guide:
       - Overview: guide/index.md
-      - Parts: guide/parts.md
-      - Wiring: guide/wiring.md
-      - Firmware: guide/firmware.md
-      - Assembly: guide/assembly.md
-  - Gallery: gallery.md
+      - PCB: guide/pcb.md
