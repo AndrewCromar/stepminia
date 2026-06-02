@@ -1,3 +1,2 @@
-- Make instructions.
 - Firmware V2.
     - Debounce buttons.
