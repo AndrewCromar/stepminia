@@ -1,26 +1,36 @@
 # PCB
 
-## About
+The PCB is the heart of the pad. It carries the RP2040 microcontroller, contact pads, and buttons. There are two versions to choose from.
 
-There are two version of the pcb, simple and integrated.
+## Which version should I choose?
 
-- **Simple:** The simple pcb just has pads for a [Waveshare Zero](https://www.waveshare.com/wiki/RP2040-Zero) to be soldered on.
-- **Integrated:** The integrated pcb has the RP2040 chip integrated into the board, this makes a second board not needed and cleans up the pcb.
+| Version | RP2040 | Best for |
+| --- | --- | --- |
+| **Simple** | A separate [Waveshare RP2040-Zero](https://www.waveshare.com/wiki/RP2040-Zero) board solders onto pads on the PCB. | Beginners, or anyone who'd rather solder one pre-made module than place lots of small parts. Cheaper to start, easier to assemble by hand. |
+| **Integrated** | The RP2040 chip is mounted directly on the board, no second board needed. | A cleaner, single-board build. Requires placing many very small parts, so it's better suited to a PCB-assembly service or experienced solderers. |
 
-You can use either pcb design depending on your skill level and/or budget.
+Pick whichever matches your skill level and budget, both produce the same finished Stepminia pad.
 
-## Production Files
+## Getting the files
 
-You can build your own production files, or you can use pre built and compressed JCLPCB production files.
+For each version you have two options:
+
+- **Order it as-is**, download the ready-made JLCPCB production `.zip` and
+  upload it straight to [JLCPCB](https://jlcpcb.com/) (or a similar fab house).
+  This is the fast path.
+- **Open or edit the design**, grab the [KiCad](https://www.kicad.org/) source
+  if you want to inspect, modify, or regenerate the board yourself.
+
+!!! note
+    Using the ready-made production files is recommended.
+
 
 ### Simple
 
-The KiCad files can be found [here](https://github.com/AndrewCromar/stepminia/tree/main/pcb/simple) (repo/pcb/simple/).
-
-The JLCPCB zipped production files can be found [here](https://github.com/AndrewCromar/stepminia/blob/main/pcb/integrated/simple.zip) (or download [here]()).
+- [Download JLCPCB production files (.zip)](https://github.com/AndrewCromar/stepminia/raw/main/pcb/simple/production.zip).
+- [KiCad source files](https://github.com/AndrewCromar/stepminia/tree/main/pcb/simple) (`repo/pcb/simple/`).
 
 ### Integrated
 
-The KiCad files can be found [here](https://github.com/AndrewCromar/stepminia/tree/main/pcb/integrated) (repo/pcb/integrated/).
-
-The JLCPCB zipped production files can be found [here](https://github.com/AndrewCromar/stepminia/blob/main/pcb/integrated/production.zip) (or download [here]()).
+- [Download JLCPCB production files (.zip)](https://github.com/AndrewCromar/stepminia/raw/main/pcb/integrated/production.zip).
+- [KiCad source files](https://github.com/AndrewCromar/stepminia/tree/main/pcb/integrated) (`repo/pcb/integrated/`).
