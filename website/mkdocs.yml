@@ -6,6 +6,7 @@ repo_name: AndrewCromar/stepminia
 
 theme:
   name: material
+  logo: assets/favicon.ico
   favicon: assets/favicon.ico
   icon:
     repo: fontawesome/brands/github
