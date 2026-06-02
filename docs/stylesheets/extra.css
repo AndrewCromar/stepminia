@@ -1,10 +1,10 @@
+/* Image collage / gallery grid (migrated from the old static site). */
 .collage {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
   max-width: 100%;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 1.5rem 0;
 }
 
 .collage img {
@@ -12,8 +12,8 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-
-  border: solid black 0.15rem;
+  border: solid var(--md-default-fg-color) 0.15rem;
+  border-radius: 0.2rem;
 }
 
 @media (max-width: 700px) {

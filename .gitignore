@@ -1,3 +1,7 @@
+# MkDocs build output + local Python env
+site/
+.venv/
+
 .history/
 pcb-backups/
 *-backups/

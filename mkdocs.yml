@@ -1,0 +1,51 @@
+site_name: Stepminia
+site_description: Desktop finger Stepmania dance-pad — build guide, about, and gallery.
+site_url: https://stepminia.vercel.app/
+repo_url: https://github.com/AndrewCromar/stepminia
+repo_name: AndrewCromar/stepminia
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.indexes      # guide/index.md acts as the Guide landing page
+    - navigation.top          # back-to-top button
+    - navigation.tracking     # URL updates to the section anchor while scrolling
+    - navigation.instant      # SPA-like instant page loads (no full reload)
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html        # enables the image grid in gallery.md
+  - admonition
+  - pymdownx.superfences   # code blocks for firmware snippets
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Guide:
+      - Overview: guide/index.md
+      - Parts: guide/parts.md
+      - Wiring: guide/wiring.md
+      - Firmware: guide/firmware.md
+      - Assembly: guide/assembly.md
+  - Gallery: gallery.md
