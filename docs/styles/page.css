@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.page > div:first-child {
+    min-width: 15%;
+
+    border-right: solid black 0.15rem;
+}
+
+.page > div:last-child {
+    flex-grow: 1;
+}
