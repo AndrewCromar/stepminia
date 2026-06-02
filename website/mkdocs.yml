@@ -13,6 +13,7 @@ theme:
   features:
     - navigation.indexes      # guide/index.md acts as the Guide landing page
     - navigation.top          # back-to-top button
+    - navigation.footer       # prev/next page links at the bottom
     - navigation.tracking     # URL updates to the section anchor while scrolling
     - navigation.instant      # SPA-like instant page loads (no full reload)
     - navigation.instant.progress
